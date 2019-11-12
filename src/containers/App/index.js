@@ -1,20 +1,22 @@
 import React from 'react';
-import {Scene, Router} from 'react-native-router-flux';
+import { Scene, Router } from 'react-native-router-flux';
+import { Provider } from 'react-redux';
 
 import Calculator from '../Calculator';
-import ShareCalculation from '../ShareCalculation';
+import NavBar from '../../components/Navbar';
+import configureStore from '../../store';
+
+const store = configureStore();
+// const RouterWithRedux = connect()(Router)
 
 const App = () => (
-  <Router>
-    <Scene key="root">
-      <Scene key="calculator" title="Calculator" component={Calculator} />
-      <Scene
-        key="shareCalculation"
-        title="Share Calculation"
-        component={ShareCalculation}
-      />
-    </Scene>
-  </Router>
+  <Provider store={store}>
+    <Router>
+      <Scene key="root">
+        <Scene key="calculator" title="Calculator" component={Calculator} navBar={NavBar} />
+      </Scene>
+    </Router>
+  </Provider>
 );
 
 export default App;

@@ -1,72 +1,84 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import {Col, Row, Grid} from 'react-native-easy-grid';
+import { Col, Row, Grid } from 'react-native-easy-grid';
 
 import Button from '../Button';
+import styles from './styles';
 
-const Pad = ({onPress}) => (
-  <Grid>
-    <Row>
-      <Col>
-        <Button onPress={onPress} title="7" />
-      </Col>
-      <Col>
-        <Button onPress={onPress} title="8" />
-      </Col>
-      <Col>
-        <Button onPress={onPress} title="9" />
-      </Col>
-      <Col>
-        <Button onPress={onPress} title="/" />
-      </Col>
-    </Row>
-    <Row>
-      <Col>
-        <Button onPress={onPress} title="4" />
-      </Col>
-      <Col>
-        <Button onPress={onPress} title="5" />
-      </Col>
-      <Col>
-        <Button onPress={onPress} title="6" />
-      </Col>
-      <Col>
-        <Button onPress={onPress} title="*" />
-      </Col>
-    </Row>
-    <Row>
-      <Col>
-        <Button onPress={onPress} title="1" />
-      </Col>
-      <Col>
-        <Button onPress={onPress} title="2" />
-      </Col>
-      <Col>
-        <Button onPress={onPress} title="3" />
-      </Col>
-      <Col>
-        <Button onPress={onPress} title="-" />
-      </Col>
-    </Row>
-    <Row>
-      <Col>
-        <Button onPress={onPress} title="," />
-      </Col>
-      <Col>
-        <Button onPress={onPress} title="0" />
-      </Col>
-      <Col>
-        <Button onPress={onPress} title="DEL" />
-      </Col>
-      <Col>
-        <Button onPress={onPress} title="=" />
-      </Col>
-    </Row>
+// TODO: withProps
+
+const Pad = ({ onNumberPress, onOperatorPress, onResult, onDelete }) => (
+  <Grid style={styles.container}>
+    <Col>
+      <Row>
+        <Button style={styles.numberButtons} onPress={onNumberPress} title="7" />
+      </Row>
+      <Row>
+        <Button style={styles.numberButtons} onPress={onNumberPress} title="4" />
+      </Row>
+      <Row>
+        <Button style={styles.numberButtons} onPress={onNumberPress} title="1" />
+      </Row>
+      <Row>
+        <Button style={styles.numberButtons} onPress={onNumberPress} title="," />
+      </Row>
+    </Col>
+
+    <Col>
+      <Row>
+        <Button style={styles.numberButtons} onPress={onNumberPress} title="8" />
+      </Row>
+      <Row>
+        <Button style={styles.numberButtons} onPress={onNumberPress} title="5" />
+      </Row>
+      <Row>
+        <Button style={styles.numberButtons} onPress={onNumberPress} title="2" />
+      </Row>
+      <Row>
+        <Button style={styles.numberButtons} onPress={onNumberPress} title="0" />
+      </Row>
+    </Col>
+
+    <Col>
+      <Row>
+        <Button style={styles.numberButtons} onPress={onNumberPress} title="9" />
+      </Row>
+      <Row>
+        <Button style={styles.numberButtons} onPress={onNumberPress} title="6" />
+      </Row>
+      <Row>
+        <Button style={styles.numberButtons} onPress={onNumberPress} title="3" />
+      </Row>
+      <Row>
+        <Button style={styles.numberButtons} onPress={onDelete} title="DEL" />
+      </Row>
+    </Col>
+
+    <Col>
+      <Row>
+        <Button style={styles.operationsButtons} onPress={onOperatorPress} title="/" />
+      </Row>
+      <Row>
+        <Button style={styles.operationsButtons} onPress={onOperatorPress} title="*" />
+      </Row>
+      <Row>
+        <Button style={styles.operationsButtons} onPress={onOperatorPress} title="-" />
+      </Row>
+      <Row>
+        <Button style={styles.operationsButtons} onPress={onResult} title="+" />
+      </Row>
+      <Row>
+        <Button style={styles.equalButton} onPress={onResult} title="=" />
+      </Row>
+    </Col>
   </Grid>
 );
 
 Pad.propTypes = {
-  onPress: PropTypes.func.isRequired,
+  onNumberPress: PropTypes.func.isRequired,
+  onOperatorPress: PropTypes.func.isRequired,
+  onResult: PropTypes.func.isRequired,
+  onDelete: PropTypes.func.isRequired,
 };
 
 export default Pad;

@@ -1,4 +1,4 @@
-import {isNumber} from './numbers';
-import {isOperator, isEqual} from './symbols';
+import {isNumber, numberOperations} from './numbers';
+import {isOperatorKey, isEqualKey, isDelKey} from './symbols';
 
-export {isNumber, isOperator, isEqual};
+export {isNumber, numberOperations, isOperatorKey, isEqualKey, isDelKey};
