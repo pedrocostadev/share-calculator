@@ -4,6 +4,7 @@ const styles = StyleSheet.create({
   result: {
     fontSize: 14,
     color: '#FFFFFF',
+    padding: 10,
   },
 });
 

@@ -4,6 +4,7 @@ const styles = StyleSheet.create({
   operation: {
     fontSize: 28,
     color: '#FFFFFF',
+    padding: 10,
   },
 });
 
