@@ -11,6 +11,9 @@
     "android-dev-release": "cd android && ./gradlew assembleRelease"
   },
   "dependencies": {
+    "appcenter": "2.6.0",
+    "appcenter-analytics": "2.6.0",
+    "appcenter-crashes": "2.6.0",
     "react": "16.8.6",
     "react-native": "0.60.5",
     "react-native-easy-grid": "^0.2.2",
