@@ -1,6 +1,6 @@
 import { OPERATION_TYPES } from '../actionsTypes';
 import { numberOperations } from '../utils/numbers';
-import { removeChar } from '../utils/strings';
+import { removeChar } from '../utils';
 
 const DEFAULT_STATE = {
   leftValue: '',

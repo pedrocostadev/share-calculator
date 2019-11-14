@@ -1,16 +1,9 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import { Text } from 'react-native';
-import styles from './styles';
+import { connect } from 'react-redux';
 
-const Operation = ({ text }) => <Text style={styles.operation}>{text}</Text>;
+import Operation from './operation';
 
-Operation.propTypes = {
-  text: PropTypes.string,
-};
+const mapStateToProps = ({ operations: { leftValue, operator, rightValue } }) => ({
+  text: `${leftValue} ${operator} ${rightValue}`,
+});
 
-Operation.defaultProps = {
-  text: '',
-};
-
-export default Operation;
+export default connect(mapStateToProps)(Operation);

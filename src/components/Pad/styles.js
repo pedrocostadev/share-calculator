@@ -8,10 +8,10 @@ const styles = StyleSheet.create({
     backgroundColor: '#000000',
   },
   operationsButtons: {
-    backgroundColor: '#212121',
+    backgroundColor: '#48474D',
   },
   equalButton: {
-    backgroundColor: '#EB0026',
+    backgroundColor: '#14C99C',
   },
 });
 

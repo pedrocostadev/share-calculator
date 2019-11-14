@@ -1,16 +1,9 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import { Text } from 'react-native';
-import styles from './styles';
+import { connect } from 'react-redux';
 
-const Result = ({ text }) => <Text style={styles.result}>{text}</Text>;
+import Result from './result';
 
-Result.propTypes = {
-  text: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
-};
+const mapStateToProps = ({ operations: { result } }) => ({
+  text: result,
+});
 
-Result.defaultProps = {
-  text: '',
-};
-
-export default Result;
+export default connect(mapStateToProps)(Result);

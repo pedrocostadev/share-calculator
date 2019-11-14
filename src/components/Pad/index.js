@@ -20,7 +20,7 @@ const Pad = ({ onNumberPress, onOperatorPress, onResult, onDelete }) => (
         <Button style={styles.numberButtons} onPress={onNumberPress} title="1" />
       </Row>
       <Row>
-        <Button style={styles.numberButtons} onPress={onNumberPress} title="," />
+        <Button style={styles.numberButtons} onPress={onNumberPress} title="." />
       </Row>
     </Col>
 

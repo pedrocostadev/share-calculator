@@ -9,9 +9,8 @@ import styles from './styles';
 
 const Calculator = ({ leftValue, operator, rightValue, result, ...actionCreators }) => {
   const onNumberPress = key => {
-    const parsedNumber = parseInt(key, 10);
     if (!leftValue || !operator || result) {
-      actionCreators.addLeftValue(parsedNumber);
+      actionCreators.addLeftValue(key);
       return;
     }
 
@@ -60,8 +59,8 @@ const Calculator = ({ leftValue, operator, rightValue, result, ...actionCreators
       <View style={styles.screen}>
         <Screen>
           <>
-            <Operation text={`${leftValue} ${operator} ${rightValue}`} />
-            <Result text={result} />
+            <Operation />
+            <Result />
           </>
         </Screen>
       </View>
