@@ -6,8 +6,9 @@
     "android-emulator": "emulator -avd Nexus_5X_API_23",
     "android": "react-native run-android",
     "test": "jest",
+    "test-watch": "jest --watch",
     "lint": "eslint .",
-    "android-dev-release": "cd android && ./gradlew assembleRelease"    
+    "android-dev-release": "cd android && ./gradlew assembleRelease"
   },
   "dependencies": {
     "react": "16.8.6",
@@ -21,6 +22,7 @@
     "@babel/core": "^7.6.0",
     "@babel/runtime": "^7.6.0",
     "@react-native-community/eslint-config": "^0.0.5",
+    "@testing-library/react-native": "^5.0.1",
     "babel-jest": "^24.9.0",
     "eslint": "^6.6.0",
     "eslint-config-standard": "^14.1.0",
@@ -36,6 +38,6 @@
     "react-test-renderer": "16.8.6"
   },
   "jest": {
-    "preset": "react-native"
+    "preset": "@testing-library/react-native"
   }
 }
