@@ -1,13 +1,4 @@
-import { isNumber, numberOperations } from './numbers';
-import { isOperatorKey, isEqualKey, isDelKey } from './symbols';
-import { removeChar, screenContentToText } from './strings';
+import { numberOperations } from './numbers';
+import { removeChar } from './strings';
 
-export {
-  isNumber,
-  numberOperations,
-  isOperatorKey,
-  isEqualKey,
-  isDelKey,
-  removeChar,
-  screenContentToText,
-};
+export { numberOperations, removeChar };

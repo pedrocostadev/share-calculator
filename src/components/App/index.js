@@ -2,12 +2,11 @@ import React from 'react';
 import { Scene, Router } from 'react-native-router-flux';
 import { Provider } from 'react-redux';
 
-import Calculator from '../Calculator';
-import NavBar from '../../components/Navbar';
+import Calculator from '../../screens/Calculator';
+import NavBar from '../Navbar';
 import configureStore from '../../store';
 
 const store = configureStore();
-// const RouterWithRedux = connect()(Router)
 
 const App = () => (
   <Provider store={store}>

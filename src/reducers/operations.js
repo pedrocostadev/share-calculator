@@ -1,6 +1,7 @@
 import { OPERATION_TYPES } from '../actionsTypes';
 import { numberOperations } from '../utils/numbers';
 import { removeChar } from '../utils';
+import OPERATIONS_TYPES from '../actionsTypes/operations';
 
 const DEFAULT_STATE = {
   leftValue: '',
@@ -12,10 +13,16 @@ const DEFAULT_STATE = {
 export default function reducer(state = DEFAULT_STATE, action) {
   switch (action.type) {
     case OPERATION_TYPES.ADD_LEFT_VALUE:
-      return {
-        ...state,
-        leftValue: `${state.leftValue}${action.key}`,
-      };
+      const isNewOperation = state.result !== undefined;
+      return isNewOperation
+        ? {
+            ...DEFAULT_STATE,
+            leftValue: action.key,
+          }
+        : {
+            ...state,
+            leftValue: `${state.leftValue}${action.key}`,
+          };
     case OPERATION_TYPES.ADD_RIGHT_VALUE:
       return {
         ...state,
@@ -52,6 +59,12 @@ export default function reducer(state = DEFAULT_STATE, action) {
       return {
         ...state,
         operator: '',
+      };
+    case OPERATIONS_TYPES.NEW_OPERATION_FROM_RESULT:
+      return {
+        ...DEFAULT_STATE,
+        leftValue: state.result,
+        operator: action.key,
       };
     default:
       return state;

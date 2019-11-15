@@ -9,7 +9,7 @@ import styles from './styles';
 
 const Calculator = ({ leftValue, operator, rightValue, result, ...actionCreators }) => {
   const onNumberPress = key => {
-    if (!leftValue || !operator || result) {
+    if (!leftValue || !operator || result !== undefined) {
       actionCreators.addLeftValue(key);
       return;
     }
@@ -48,9 +48,14 @@ const Calculator = ({ leftValue, operator, rightValue, result, ...actionCreators
   };
 
   const onOperatorPress = key => {
-    if (operator || !leftValue) {
+    if (result !== undefined) {
+      return actionCreators.newOperationFromResult(key);
+    }
+
+    if (!leftValue || rightValue) {
       return;
     }
+
     actionCreators.addOperator(key);
   };
 

@@ -1,9 +1,10 @@
 import { connect } from 'react-redux';
 
 import Operation from './operation';
+import { operationsSelectors } from '../../selectors';
 
-const mapStateToProps = ({ operations: { leftValue, operator, rightValue } }) => ({
-  text: `${leftValue} ${operator} ${rightValue}`,
+const mapStateToProps = state => ({
+  text: operationsSelectors.selectOperation(state),
 });
 
 export default connect(mapStateToProps)(Operation);

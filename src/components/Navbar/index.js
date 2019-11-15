@@ -1,10 +1,10 @@
 import { connect } from 'react-redux';
 
 import NavBar from './navbar';
-import { screenContentToText } from '../../utils';
+import { operationsSelectors } from '../../selectors';
 
-const mapStateToProps = ({ operations }) => ({
-  screenText: screenContentToText(operations),
+const mapStateToProps = state => ({
+  screenText: operationsSelectors.selectOperationWithResult(state),
 });
 
 export default connect(mapStateToProps)(NavBar);
