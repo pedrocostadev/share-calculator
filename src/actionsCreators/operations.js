@@ -8,6 +8,7 @@ export const removeLeftValue = () => ({ type: OPERATION_TYPES.REMOVE_LEFT_VALUE 
 export const removeRightValue = () => ({ type: OPERATION_TYPES.REMOVE_RIGHT_VALUE });
 export const removeResult = () => ({ type: OPERATION_TYPES.REMOVE_RESULT });
 export const removeOperator = () => ({ type: OPERATION_TYPES.REMOVE_OPERATOR });
+export const newOperation = key => ({ type: OPERATION_TYPES.NEW_OPERATION, key });
 export const newOperationFromResult = key => ({
   type: OPERATION_TYPES.NEW_OPERATION_FROM_RESULT,
   key,

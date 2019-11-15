@@ -9,7 +9,7 @@ import styles from './styles';
 
 const Calculator = ({ leftValue, operator, rightValue, result, ...actionCreators }) => {
   const onNumberPress = key => {
-    if (!leftValue || !operator || result !== undefined) {
+    if (!leftValue || isNaN(leftValue) || !operator || result !== undefined) {
       actionCreators.addLeftValue(key);
       return;
     }
@@ -18,7 +18,7 @@ const Calculator = ({ leftValue, operator, rightValue, result, ...actionCreators
   };
 
   const onResult = () => {
-    if (!leftValue || !rightValue || !operator) {
+    if (!leftValue || isNaN(rightValue) || !operator) {
       return;
     }
 
@@ -48,12 +48,24 @@ const Calculator = ({ leftValue, operator, rightValue, result, ...actionCreators
   };
 
   const onOperatorPress = key => {
+    if ((leftValue && isNaN(leftValue)) || (rightValue && isNaN(rightValue))) {
+      return;
+    }
+
     if (result !== undefined) {
       return actionCreators.newOperationFromResult(key);
     }
 
-    if (!leftValue || rightValue) {
-      return;
+    if (!leftValue && key === '-') {
+      return actionCreators.addLeftValue(key);
+    }
+
+    if (operator && key === '-' && !rightValue) {
+      return actionCreators.addRightValue(key);
+    }
+
+    if (!result && rightValue && leftValue) {
+      return actionCreators.newOperation(key);
     }
 
     actionCreators.addOperator(key);

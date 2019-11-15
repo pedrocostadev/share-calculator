@@ -33,12 +33,13 @@ export default function reducer(state = DEFAULT_STATE, action) {
         ...state,
         operator: action.key,
       };
-    case OPERATION_TYPES.ADD_RESULT:
+    case OPERATION_TYPES.ADD_RESULT: {
       const result = numberOperations[state.operator](state.leftValue, state.rightValue);
       return {
         ...state,
         result,
       };
+    }
     case OPERATION_TYPES.REMOVE_LEFT_VALUE:
       return {
         ...state,
@@ -66,6 +67,14 @@ export default function reducer(state = DEFAULT_STATE, action) {
         leftValue: state.result,
         operator: action.key,
       };
+    case OPERATIONS_TYPES.NEW_OPERATION: {
+      const result = numberOperations[state.operator](state.leftValue, state.rightValue);
+      return {
+        ...DEFAULT_STATE,
+        leftValue: result,
+        operator: action.key,
+      };
+    }
     default:
       return state;
   }
