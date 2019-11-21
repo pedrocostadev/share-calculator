@@ -24,8 +24,8 @@ exports[`<Operation /> Invalid operations should not try to calculate a invalid 
         }
       }
     >
-      <View
-        style={
+      <ScrollView
+        contentContainerStyle={
           Object {
             "alignItems": "flex-end",
             "backgroundColor": "#141414",
@@ -57,7 +57,7 @@ exports[`<Operation /> Invalid operations should not try to calculate a invalid 
         >
           
         </Text>
-      </View>
+      </ScrollView>
     </View>
     <View
       style={
@@ -838,8 +838,8 @@ exports[`<Operation /> del should be able to completly delete left operand 1`] =
         }
       }
     >
-      <View
-        style={
+      <ScrollView
+        contentContainerStyle={
           Object {
             "alignItems": "flex-end",
             "backgroundColor": "#141414",
@@ -871,7 +871,7 @@ exports[`<Operation /> del should be able to completly delete left operand 1`] =
         >
           
         </Text>
-      </View>
+      </ScrollView>
     </View>
     <View
       style={
@@ -1652,8 +1652,8 @@ exports[`<Operation /> del should be able to delete a 0 (zero) result 1`] = `
         }
       }
     >
-      <View
-        style={
+      <ScrollView
+        contentContainerStyle={
           Object {
             "alignItems": "flex-end",
             "backgroundColor": "#141414",
@@ -1685,7 +1685,7 @@ exports[`<Operation /> del should be able to delete a 0 (zero) result 1`] = `
         >
           
         </Text>
-      </View>
+      </ScrollView>
     </View>
     <View
       style={
@@ -2466,8 +2466,8 @@ exports[`<Operation /> del should be able to delete the operator 1`] = `
         }
       }
     >
-      <View
-        style={
+      <ScrollView
+        contentContainerStyle={
           Object {
             "alignItems": "flex-end",
             "backgroundColor": "#141414",
@@ -2499,7 +2499,7 @@ exports[`<Operation /> del should be able to delete the operator 1`] = `
         >
           
         </Text>
-      </View>
+      </ScrollView>
     </View>
     <View
       style={
@@ -3280,8 +3280,8 @@ exports[`<Operation /> del should be able to delete the right operand 1`] = `
         }
       }
     >
-      <View
-        style={
+      <ScrollView
+        contentContainerStyle={
           Object {
             "alignItems": "flex-end",
             "backgroundColor": "#141414",
@@ -3313,7 +3313,7 @@ exports[`<Operation /> del should be able to delete the right operand 1`] = `
         >
           
         </Text>
-      </View>
+      </ScrollView>
     </View>
     <View
       style={
@@ -4094,8 +4094,8 @@ exports[`<Operation /> del should be able to partially delete left operand 1`] =
         }
       }
     >
-      <View
-        style={
+      <ScrollView
+        contentContainerStyle={
           Object {
             "alignItems": "flex-end",
             "backgroundColor": "#141414",
@@ -4127,7 +4127,7 @@ exports[`<Operation /> del should be able to partially delete left operand 1`] =
         >
           
         </Text>
-      </View>
+      </ScrollView>
     </View>
     <View
       style={
@@ -4908,8 +4908,8 @@ exports[`<Operation /> left operand should be able to type a decimal and negativ
         }
       }
     >
-      <View
-        style={
+      <ScrollView
+        contentContainerStyle={
           Object {
             "alignItems": "flex-end",
             "backgroundColor": "#141414",
@@ -4941,7 +4941,7 @@ exports[`<Operation /> left operand should be able to type a decimal and negativ
         >
           
         </Text>
-      </View>
+      </ScrollView>
     </View>
     <View
       style={
@@ -5722,8 +5722,8 @@ exports[`<Operation /> left operand should be able to type a decimal left operan
         }
       }
     >
-      <View
-        style={
+      <ScrollView
+        contentContainerStyle={
           Object {
             "alignItems": "flex-end",
             "backgroundColor": "#141414",
@@ -5755,7 +5755,7 @@ exports[`<Operation /> left operand should be able to type a decimal left operan
         >
           
         </Text>
-      </View>
+      </ScrollView>
     </View>
     <View
       style={
@@ -6536,8 +6536,8 @@ exports[`<Operation /> left operand should be able to type a decimal left operan
         }
       }
     >
-      <View
-        style={
+      <ScrollView
+        contentContainerStyle={
           Object {
             "alignItems": "flex-end",
             "backgroundColor": "#141414",
@@ -6569,7 +6569,7 @@ exports[`<Operation /> left operand should be able to type a decimal left operan
         >
           
         </Text>
-      </View>
+      </ScrollView>
     </View>
     <View
       style={
@@ -7350,8 +7350,8 @@ exports[`<Operation /> left operand should be able to type a left operand 1`] = 
         }
       }
     >
-      <View
-        style={
+      <ScrollView
+        contentContainerStyle={
           Object {
             "alignItems": "flex-end",
             "backgroundColor": "#141414",
@@ -7383,7 +7383,7 @@ exports[`<Operation /> left operand should be able to type a left operand 1`] = 
         >
           
         </Text>
-      </View>
+      </ScrollView>
     </View>
     <View
       style={
@@ -8164,8 +8164,8 @@ exports[`<Operation /> left operand should be able to type a negative left opera
         }
       }
     >
-      <View
-        style={
+      <ScrollView
+        contentContainerStyle={
           Object {
             "alignItems": "flex-end",
             "backgroundColor": "#141414",
@@ -8197,7 +8197,7 @@ exports[`<Operation /> left operand should be able to type a negative left opera
         >
           
         </Text>
-      </View>
+      </ScrollView>
     </View>
     <View
       style={
@@ -8978,8 +8978,8 @@ exports[`<Operation /> left operand should not be able to type * (mutiplication 
         }
       }
     >
-      <View
-        style={
+      <ScrollView
+        contentContainerStyle={
           Object {
             "alignItems": "flex-end",
             "backgroundColor": "#141414",
@@ -9011,7 +9011,7 @@ exports[`<Operation /> left operand should not be able to type * (mutiplication 
         >
           
         </Text>
-      </View>
+      </ScrollView>
     </View>
     <View
       style={
@@ -9792,8 +9792,8 @@ exports[`<Operation /> left operand should not be able to type / (division opera
         }
       }
     >
-      <View
-        style={
+      <ScrollView
+        contentContainerStyle={
           Object {
             "alignItems": "flex-end",
             "backgroundColor": "#141414",
@@ -9825,7 +9825,7 @@ exports[`<Operation /> left operand should not be able to type / (division opera
         >
           
         </Text>
-      </View>
+      </ScrollView>
     </View>
     <View
       style={
@@ -10606,8 +10606,8 @@ exports[`<Operation /> operations from result should be able to make a new opera
         }
       }
     >
-      <View
-        style={
+      <ScrollView
+        contentContainerStyle={
           Object {
             "alignItems": "flex-end",
             "backgroundColor": "#141414",
@@ -10639,7 +10639,7 @@ exports[`<Operation /> operations from result should be able to make a new opera
         >
           32
         </Text>
-      </View>
+      </ScrollView>
     </View>
     <View
       style={
@@ -11420,8 +11420,8 @@ exports[`<Operation /> operations from result should be able to make a new opera
         }
       }
     >
-      <View
-        style={
+      <ScrollView
+        contentContainerStyle={
           Object {
             "alignItems": "flex-end",
             "backgroundColor": "#141414",
@@ -11453,7 +11453,7 @@ exports[`<Operation /> operations from result should be able to make a new opera
         >
           32
         </Text>
-      </View>
+      </ScrollView>
     </View>
     <View
       style={
@@ -12234,8 +12234,8 @@ exports[`<Operation /> operations from result should be able to make a new opera
         }
       }
     >
-      <View
-        style={
+      <ScrollView
+        contentContainerStyle={
           Object {
             "alignItems": "flex-end",
             "backgroundColor": "#141414",
@@ -12267,7 +12267,7 @@ exports[`<Operation /> operations from result should be able to make a new opera
         >
           24
         </Text>
-      </View>
+      </ScrollView>
     </View>
     <View
       style={
@@ -13048,8 +13048,8 @@ exports[`<Operation /> operator should be able to make a division 1`] = `
         }
       }
     >
-      <View
-        style={
+      <ScrollView
+        contentContainerStyle={
           Object {
             "alignItems": "flex-end",
             "backgroundColor": "#141414",
@@ -13081,7 +13081,7 @@ exports[`<Operation /> operator should be able to make a division 1`] = `
         >
           20
         </Text>
-      </View>
+      </ScrollView>
     </View>
     <View
       style={
@@ -13862,8 +13862,8 @@ exports[`<Operation /> operator should be able to make a mutiplication 1`] = `
         }
       }
     >
-      <View
-        style={
+      <ScrollView
+        contentContainerStyle={
           Object {
             "alignItems": "flex-end",
             "backgroundColor": "#141414",
@@ -13895,7 +13895,7 @@ exports[`<Operation /> operator should be able to make a mutiplication 1`] = `
         >
           80
         </Text>
-      </View>
+      </ScrollView>
     </View>
     <View
       style={
@@ -14676,8 +14676,8 @@ exports[`<Operation /> operator should be able to make a subtraction 1`] = `
         }
       }
     >
-      <View
-        style={
+      <ScrollView
+        contentContainerStyle={
           Object {
             "alignItems": "flex-end",
             "backgroundColor": "#141414",
@@ -14709,7 +14709,7 @@ exports[`<Operation /> operator should be able to make a subtraction 1`] = `
         >
           38
         </Text>
-      </View>
+      </ScrollView>
     </View>
     <View
       style={
@@ -15490,8 +15490,8 @@ exports[`<Operation /> operator should be able to make a sum 1`] = `
         }
       }
     >
-      <View
-        style={
+      <ScrollView
+        contentContainerStyle={
           Object {
             "alignItems": "flex-end",
             "backgroundColor": "#141414",
@@ -15523,7 +15523,7 @@ exports[`<Operation /> operator should be able to make a sum 1`] = `
         >
           43
         </Text>
-      </View>
+      </ScrollView>
     </View>
     <View
       style={
@@ -16304,8 +16304,8 @@ exports[`<Operation /> operator should be able to type the operator 1`] = `
         }
       }
     >
-      <View
-        style={
+      <ScrollView
+        contentContainerStyle={
           Object {
             "alignItems": "flex-end",
             "backgroundColor": "#141414",
@@ -16337,7 +16337,7 @@ exports[`<Operation /> operator should be able to type the operator 1`] = `
         >
           
         </Text>
-      </View>
+      </ScrollView>
     </View>
     <View
       style={
@@ -17118,8 +17118,8 @@ exports[`<Operation /> right operand should be able to type a decimal and negati
         }
       }
     >
-      <View
-        style={
+      <ScrollView
+        contentContainerStyle={
           Object {
             "alignItems": "flex-end",
             "backgroundColor": "#141414",
@@ -17151,7 +17151,7 @@ exports[`<Operation /> right operand should be able to type a decimal and negati
         >
           
         </Text>
-      </View>
+      </ScrollView>
     </View>
     <View
       style={
@@ -17932,8 +17932,8 @@ exports[`<Operation /> right operand should be able to type a decimal right oper
         }
       }
     >
-      <View
-        style={
+      <ScrollView
+        contentContainerStyle={
           Object {
             "alignItems": "flex-end",
             "backgroundColor": "#141414",
@@ -17965,7 +17965,7 @@ exports[`<Operation /> right operand should be able to type a decimal right oper
         >
           
         </Text>
-      </View>
+      </ScrollView>
     </View>
     <View
       style={
@@ -18746,8 +18746,8 @@ exports[`<Operation /> right operand should be able to type a decimal right oper
         }
       }
     >
-      <View
-        style={
+      <ScrollView
+        contentContainerStyle={
           Object {
             "alignItems": "flex-end",
             "backgroundColor": "#141414",
@@ -18779,7 +18779,7 @@ exports[`<Operation /> right operand should be able to type a decimal right oper
         >
           
         </Text>
-      </View>
+      </ScrollView>
     </View>
     <View
       style={
@@ -19560,8 +19560,8 @@ exports[`<Operation /> right operand should be able to type a negative right ope
         }
       }
     >
-      <View
-        style={
+      <ScrollView
+        contentContainerStyle={
           Object {
             "alignItems": "flex-end",
             "backgroundColor": "#141414",
@@ -19593,7 +19593,7 @@ exports[`<Operation /> right operand should be able to type a negative right ope
         >
           
         </Text>
-      </View>
+      </ScrollView>
     </View>
     <View
       style={
@@ -20374,8 +20374,8 @@ exports[`<Operation /> right operand should be able to type the right operand 1`
         }
       }
     >
-      <View
-        style={
+      <ScrollView
+        contentContainerStyle={
           Object {
             "alignItems": "flex-end",
             "backgroundColor": "#141414",
@@ -20407,7 +20407,7 @@ exports[`<Operation /> right operand should be able to type the right operand 1`
         >
           
         </Text>
-      </View>
+      </ScrollView>
     </View>
     <View
       style={
