@@ -3,7 +3,7 @@ import { numberOperations } from '../utils/numbers';
 import { removeChar } from '../utils';
 import OPERATIONS_TYPES from '../actionsTypes/operations';
 
-const DEFAULT_STATE = {
+export const DEFAULT_STATE = {
   leftValue: '',
   operator: '',
   rightValue: '',
@@ -71,7 +71,7 @@ export default function reducer(state = DEFAULT_STATE, action) {
       const result = numberOperations[state.operator](state.leftValue, state.rightValue);
       return {
         ...DEFAULT_STATE,
-        leftValue: result,
+        leftValue: `${result}`,
         operator: action.key,
       };
     }

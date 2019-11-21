@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Button /> should render the title 1`] = `
+<View
+  collapsable={true}
+  pointerEvents="box-none"
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <ScrollView
+    contentContainerStyle={
+      Object {
+        "height": "100%",
+      }
+    }
+  >
+    <TouchableOpacity
+      activeOpacity={0.2}
+      style={
+        Object {
+          "alignItems": "center",
+          "display": "flex",
+          "height": "100%",
+          "justifyContent": "center",
+          "width": "100%",
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "white",
+            "fontSize": 24,
+          }
+        }
+      >
+        Button example
+      </Text>
+    </TouchableOpacity>
+  </ScrollView>
+</View>
+`;
