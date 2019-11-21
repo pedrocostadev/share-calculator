@@ -1,4 +1,6 @@
 # Share-Calculator
+![Demo1](./imgs/share-calculator-intro.png)
+
 A simple merchant calculator made with React-Native, Redux and Reselect.
 This calculator is different from the others because let you share your calculations using the share button :laughing: !
 
