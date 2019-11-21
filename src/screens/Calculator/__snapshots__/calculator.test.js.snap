@@ -24,8 +24,8 @@ exports[`<Operation /> Invalid operations should not try to calculate a invalid 
         }
       }
     >
-      <ScrollView
-        contentContainerStyle={
+      <View
+        style={
           Object {
             "alignItems": "flex-end",
             "backgroundColor": "#141414",
@@ -35,29 +35,31 @@ exports[`<Operation /> Invalid operations should not try to calculate a invalid 
           }
         }
       >
-        <Text
-          style={
-            Object {
-              "color": "#FFFFFF",
-              "fontSize": 28,
-              "padding": 10,
+        <ScrollView>
+          <Text
+            style={
+              Object {
+                "color": "#FFFFFF",
+                "fontSize": 28,
+                "padding": 10,
+              }
             }
-          }
-        >
-          -4 + 
-        </Text>
-        <Text
-          style={
-            Object {
-              "color": "#FFFFFF",
-              "fontSize": 28,
-              "padding": 10,
+          >
+            -4 + 
+          </Text>
+          <Text
+            style={
+              Object {
+                "color": "#FFFFFF",
+                "fontSize": 28,
+                "padding": 10,
+              }
             }
-          }
-        >
-          
-        </Text>
-      </ScrollView>
+          >
+            
+          </Text>
+        </ScrollView>
+      </View>
     </View>
     <View
       style={
@@ -838,8 +840,8 @@ exports[`<Operation /> del should be able to completly delete left operand 1`] =
         }
       }
     >
-      <ScrollView
-        contentContainerStyle={
+      <View
+        style={
           Object {
             "alignItems": "flex-end",
             "backgroundColor": "#141414",
@@ -849,29 +851,31 @@ exports[`<Operation /> del should be able to completly delete left operand 1`] =
           }
         }
       >
-        <Text
-          style={
-            Object {
-              "color": "#FFFFFF",
-              "fontSize": 28,
-              "padding": 10,
+        <ScrollView>
+          <Text
+            style={
+              Object {
+                "color": "#FFFFFF",
+                "fontSize": 28,
+                "padding": 10,
+              }
             }
-          }
-        >
+          >
+              
+          </Text>
+          <Text
+            style={
+              Object {
+                "color": "#FFFFFF",
+                "fontSize": 28,
+                "padding": 10,
+              }
+            }
+          >
             
-        </Text>
-        <Text
-          style={
-            Object {
-              "color": "#FFFFFF",
-              "fontSize": 28,
-              "padding": 10,
-            }
-          }
-        >
-          
-        </Text>
-      </ScrollView>
+          </Text>
+        </ScrollView>
+      </View>
     </View>
     <View
       style={
@@ -1652,8 +1656,8 @@ exports[`<Operation /> del should be able to delete a 0 (zero) result 1`] = `
         }
       }
     >
-      <ScrollView
-        contentContainerStyle={
+      <View
+        style={
           Object {
             "alignItems": "flex-end",
             "backgroundColor": "#141414",
@@ -1663,29 +1667,31 @@ exports[`<Operation /> del should be able to delete a 0 (zero) result 1`] = `
           }
         }
       >
-        <Text
-          style={
-            Object {
-              "color": "#FFFFFF",
-              "fontSize": 28,
-              "padding": 10,
+        <ScrollView>
+          <Text
+            style={
+              Object {
+                "color": "#FFFFFF",
+                "fontSize": 28,
+                "padding": 10,
+              }
             }
-          }
-        >
-          3 * 
-        </Text>
-        <Text
-          style={
-            Object {
-              "color": "#FFFFFF",
-              "fontSize": 28,
-              "padding": 10,
+          >
+            3 * 
+          </Text>
+          <Text
+            style={
+              Object {
+                "color": "#FFFFFF",
+                "fontSize": 28,
+                "padding": 10,
+              }
             }
-          }
-        >
-          
-        </Text>
-      </ScrollView>
+          >
+            
+          </Text>
+        </ScrollView>
+      </View>
     </View>
     <View
       style={
@@ -2466,8 +2472,8 @@ exports[`<Operation /> del should be able to delete the operator 1`] = `
         }
       }
     >
-      <ScrollView
-        contentContainerStyle={
+      <View
+        style={
           Object {
             "alignItems": "flex-end",
             "backgroundColor": "#141414",
@@ -2477,29 +2483,31 @@ exports[`<Operation /> del should be able to delete the operator 1`] = `
           }
         }
       >
-        <Text
-          style={
-            Object {
-              "color": "#FFFFFF",
-              "fontSize": 28,
-              "padding": 10,
+        <ScrollView>
+          <Text
+            style={
+              Object {
+                "color": "#FFFFFF",
+                "fontSize": 28,
+                "padding": 10,
+              }
             }
-          }
-        >
-          34  
-        </Text>
-        <Text
-          style={
-            Object {
-              "color": "#FFFFFF",
-              "fontSize": 28,
-              "padding": 10,
+          >
+            34  
+          </Text>
+          <Text
+            style={
+              Object {
+                "color": "#FFFFFF",
+                "fontSize": 28,
+                "padding": 10,
+              }
             }
-          }
-        >
-          
-        </Text>
-      </ScrollView>
+          >
+            
+          </Text>
+        </ScrollView>
+      </View>
     </View>
     <View
       style={
@@ -3280,8 +3288,8 @@ exports[`<Operation /> del should be able to delete the right operand 1`] = `
         }
       }
     >
-      <ScrollView
-        contentContainerStyle={
+      <View
+        style={
           Object {
             "alignItems": "flex-end",
             "backgroundColor": "#141414",
@@ -3291,29 +3299,31 @@ exports[`<Operation /> del should be able to delete the right operand 1`] = `
           }
         }
       >
-        <Text
-          style={
-            Object {
-              "color": "#FFFFFF",
-              "fontSize": 28,
-              "padding": 10,
+        <ScrollView>
+          <Text
+            style={
+              Object {
+                "color": "#FFFFFF",
+                "fontSize": 28,
+                "padding": 10,
+              }
             }
-          }
-        >
-          34 + 
-        </Text>
-        <Text
-          style={
-            Object {
-              "color": "#FFFFFF",
-              "fontSize": 28,
-              "padding": 10,
+          >
+            34 + 
+          </Text>
+          <Text
+            style={
+              Object {
+                "color": "#FFFFFF",
+                "fontSize": 28,
+                "padding": 10,
+              }
             }
-          }
-        >
-          
-        </Text>
-      </ScrollView>
+          >
+            
+          </Text>
+        </ScrollView>
+      </View>
     </View>
     <View
       style={
@@ -4094,8 +4104,8 @@ exports[`<Operation /> del should be able to partially delete left operand 1`] =
         }
       }
     >
-      <ScrollView
-        contentContainerStyle={
+      <View
+        style={
           Object {
             "alignItems": "flex-end",
             "backgroundColor": "#141414",
@@ -4105,29 +4115,31 @@ exports[`<Operation /> del should be able to partially delete left operand 1`] =
           }
         }
       >
-        <Text
-          style={
-            Object {
-              "color": "#FFFFFF",
-              "fontSize": 28,
-              "padding": 10,
+        <ScrollView>
+          <Text
+            style={
+              Object {
+                "color": "#FFFFFF",
+                "fontSize": 28,
+                "padding": 10,
+              }
             }
-          }
-        >
-          3  
-        </Text>
-        <Text
-          style={
-            Object {
-              "color": "#FFFFFF",
-              "fontSize": 28,
-              "padding": 10,
+          >
+            3  
+          </Text>
+          <Text
+            style={
+              Object {
+                "color": "#FFFFFF",
+                "fontSize": 28,
+                "padding": 10,
+              }
             }
-          }
-        >
-          
-        </Text>
-      </ScrollView>
+          >
+            
+          </Text>
+        </ScrollView>
+      </View>
     </View>
     <View
       style={
@@ -4908,8 +4920,8 @@ exports[`<Operation /> left operand should be able to type a decimal and negativ
         }
       }
     >
-      <ScrollView
-        contentContainerStyle={
+      <View
+        style={
           Object {
             "alignItems": "flex-end",
             "backgroundColor": "#141414",
@@ -4919,29 +4931,31 @@ exports[`<Operation /> left operand should be able to type a decimal and negativ
           }
         }
       >
-        <Text
-          style={
-            Object {
-              "color": "#FFFFFF",
-              "fontSize": 28,
-              "padding": 10,
+        <ScrollView>
+          <Text
+            style={
+              Object {
+                "color": "#FFFFFF",
+                "fontSize": 28,
+                "padding": 10,
+              }
             }
-          }
-        >
-          -21.33  
-        </Text>
-        <Text
-          style={
-            Object {
-              "color": "#FFFFFF",
-              "fontSize": 28,
-              "padding": 10,
+          >
+            -21.33  
+          </Text>
+          <Text
+            style={
+              Object {
+                "color": "#FFFFFF",
+                "fontSize": 28,
+                "padding": 10,
+              }
             }
-          }
-        >
-          
-        </Text>
-      </ScrollView>
+          >
+            
+          </Text>
+        </ScrollView>
+      </View>
     </View>
     <View
       style={
@@ -5722,8 +5736,8 @@ exports[`<Operation /> left operand should be able to type a decimal left operan
         }
       }
     >
-      <ScrollView
-        contentContainerStyle={
+      <View
+        style={
           Object {
             "alignItems": "flex-end",
             "backgroundColor": "#141414",
@@ -5733,29 +5747,31 @@ exports[`<Operation /> left operand should be able to type a decimal left operan
           }
         }
       >
-        <Text
-          style={
-            Object {
-              "color": "#FFFFFF",
-              "fontSize": 28,
-              "padding": 10,
+        <ScrollView>
+          <Text
+            style={
+              Object {
+                "color": "#FFFFFF",
+                "fontSize": 28,
+                "padding": 10,
+              }
             }
-          }
-        >
-          21.33  
-        </Text>
-        <Text
-          style={
-            Object {
-              "color": "#FFFFFF",
-              "fontSize": 28,
-              "padding": 10,
+          >
+            21.33  
+          </Text>
+          <Text
+            style={
+              Object {
+                "color": "#FFFFFF",
+                "fontSize": 28,
+                "padding": 10,
+              }
             }
-          }
-        >
-          
-        </Text>
-      </ScrollView>
+          >
+            
+          </Text>
+        </ScrollView>
+      </View>
     </View>
     <View
       style={
@@ -6536,8 +6552,8 @@ exports[`<Operation /> left operand should be able to type a decimal left operan
         }
       }
     >
-      <ScrollView
-        contentContainerStyle={
+      <View
+        style={
           Object {
             "alignItems": "flex-end",
             "backgroundColor": "#141414",
@@ -6547,29 +6563,31 @@ exports[`<Operation /> left operand should be able to type a decimal left operan
           }
         }
       >
-        <Text
-          style={
-            Object {
-              "color": "#FFFFFF",
-              "fontSize": 28,
-              "padding": 10,
+        <ScrollView>
+          <Text
+            style={
+              Object {
+                "color": "#FFFFFF",
+                "fontSize": 28,
+                "padding": 10,
+              }
             }
-          }
-        >
-          .33  
-        </Text>
-        <Text
-          style={
-            Object {
-              "color": "#FFFFFF",
-              "fontSize": 28,
-              "padding": 10,
+          >
+            .33  
+          </Text>
+          <Text
+            style={
+              Object {
+                "color": "#FFFFFF",
+                "fontSize": 28,
+                "padding": 10,
+              }
             }
-          }
-        >
-          
-        </Text>
-      </ScrollView>
+          >
+            
+          </Text>
+        </ScrollView>
+      </View>
     </View>
     <View
       style={
@@ -7350,8 +7368,8 @@ exports[`<Operation /> left operand should be able to type a left operand 1`] = 
         }
       }
     >
-      <ScrollView
-        contentContainerStyle={
+      <View
+        style={
           Object {
             "alignItems": "flex-end",
             "backgroundColor": "#141414",
@@ -7361,29 +7379,31 @@ exports[`<Operation /> left operand should be able to type a left operand 1`] = 
           }
         }
       >
-        <Text
-          style={
-            Object {
-              "color": "#FFFFFF",
-              "fontSize": 28,
-              "padding": 10,
+        <ScrollView>
+          <Text
+            style={
+              Object {
+                "color": "#FFFFFF",
+                "fontSize": 28,
+                "padding": 10,
+              }
             }
-          }
-        >
-          21  
-        </Text>
-        <Text
-          style={
-            Object {
-              "color": "#FFFFFF",
-              "fontSize": 28,
-              "padding": 10,
+          >
+            21  
+          </Text>
+          <Text
+            style={
+              Object {
+                "color": "#FFFFFF",
+                "fontSize": 28,
+                "padding": 10,
+              }
             }
-          }
-        >
-          
-        </Text>
-      </ScrollView>
+          >
+            
+          </Text>
+        </ScrollView>
+      </View>
     </View>
     <View
       style={
@@ -8164,8 +8184,8 @@ exports[`<Operation /> left operand should be able to type a negative left opera
         }
       }
     >
-      <ScrollView
-        contentContainerStyle={
+      <View
+        style={
           Object {
             "alignItems": "flex-end",
             "backgroundColor": "#141414",
@@ -8175,29 +8195,31 @@ exports[`<Operation /> left operand should be able to type a negative left opera
           }
         }
       >
-        <Text
-          style={
-            Object {
-              "color": "#FFFFFF",
-              "fontSize": 28,
-              "padding": 10,
+        <ScrollView>
+          <Text
+            style={
+              Object {
+                "color": "#FFFFFF",
+                "fontSize": 28,
+                "padding": 10,
+              }
             }
-          }
-        >
-          -21  
-        </Text>
-        <Text
-          style={
-            Object {
-              "color": "#FFFFFF",
-              "fontSize": 28,
-              "padding": 10,
+          >
+            -21  
+          </Text>
+          <Text
+            style={
+              Object {
+                "color": "#FFFFFF",
+                "fontSize": 28,
+                "padding": 10,
+              }
             }
-          }
-        >
-          
-        </Text>
-      </ScrollView>
+          >
+            
+          </Text>
+        </ScrollView>
+      </View>
     </View>
     <View
       style={
@@ -8978,8 +9000,8 @@ exports[`<Operation /> left operand should not be able to type * (mutiplication 
         }
       }
     >
-      <ScrollView
-        contentContainerStyle={
+      <View
+        style={
           Object {
             "alignItems": "flex-end",
             "backgroundColor": "#141414",
@@ -8989,29 +9011,31 @@ exports[`<Operation /> left operand should not be able to type * (mutiplication 
           }
         }
       >
-        <Text
-          style={
-            Object {
-              "color": "#FFFFFF",
-              "fontSize": 28,
-              "padding": 10,
+        <ScrollView>
+          <Text
+            style={
+              Object {
+                "color": "#FFFFFF",
+                "fontSize": 28,
+                "padding": 10,
+              }
             }
-          }
-        >
+          >
+              
+          </Text>
+          <Text
+            style={
+              Object {
+                "color": "#FFFFFF",
+                "fontSize": 28,
+                "padding": 10,
+              }
+            }
+          >
             
-        </Text>
-        <Text
-          style={
-            Object {
-              "color": "#FFFFFF",
-              "fontSize": 28,
-              "padding": 10,
-            }
-          }
-        >
-          
-        </Text>
-      </ScrollView>
+          </Text>
+        </ScrollView>
+      </View>
     </View>
     <View
       style={
@@ -9792,8 +9816,8 @@ exports[`<Operation /> left operand should not be able to type / (division opera
         }
       }
     >
-      <ScrollView
-        contentContainerStyle={
+      <View
+        style={
           Object {
             "alignItems": "flex-end",
             "backgroundColor": "#141414",
@@ -9803,29 +9827,31 @@ exports[`<Operation /> left operand should not be able to type / (division opera
           }
         }
       >
-        <Text
-          style={
-            Object {
-              "color": "#FFFFFF",
-              "fontSize": 28,
-              "padding": 10,
+        <ScrollView>
+          <Text
+            style={
+              Object {
+                "color": "#FFFFFF",
+                "fontSize": 28,
+                "padding": 10,
+              }
             }
-          }
-        >
+          >
+              
+          </Text>
+          <Text
+            style={
+              Object {
+                "color": "#FFFFFF",
+                "fontSize": 28,
+                "padding": 10,
+              }
+            }
+          >
             
-        </Text>
-        <Text
-          style={
-            Object {
-              "color": "#FFFFFF",
-              "fontSize": 28,
-              "padding": 10,
-            }
-          }
-        >
-          
-        </Text>
-      </ScrollView>
+          </Text>
+        </ScrollView>
+      </View>
     </View>
     <View
       style={
@@ -10606,8 +10632,8 @@ exports[`<Operation /> operations from result should be able to make a new opera
         }
       }
     >
-      <ScrollView
-        contentContainerStyle={
+      <View
+        style={
           Object {
             "alignItems": "flex-end",
             "backgroundColor": "#141414",
@@ -10617,29 +10643,31 @@ exports[`<Operation /> operations from result should be able to make a new opera
           }
         }
       >
-        <Text
-          style={
-            Object {
-              "color": "#FFFFFF",
-              "fontSize": 28,
-              "padding": 10,
+        <ScrollView>
+          <Text
+            style={
+              Object {
+                "color": "#FFFFFF",
+                "fontSize": 28,
+                "padding": 10,
+              }
             }
-          }
-        >
-          30 + 2
-        </Text>
-        <Text
-          style={
-            Object {
-              "color": "#FFFFFF",
-              "fontSize": 28,
-              "padding": 10,
+          >
+            30 + 2
+          </Text>
+          <Text
+            style={
+              Object {
+                "color": "#FFFFFF",
+                "fontSize": 28,
+                "padding": 10,
+              }
             }
-          }
-        >
-          32
-        </Text>
-      </ScrollView>
+          >
+            32
+          </Text>
+        </ScrollView>
+      </View>
     </View>
     <View
       style={
@@ -11420,8 +11448,8 @@ exports[`<Operation /> operations from result should be able to make a new opera
         }
       }
     >
-      <ScrollView
-        contentContainerStyle={
+      <View
+        style={
           Object {
             "alignItems": "flex-end",
             "backgroundColor": "#141414",
@@ -11431,29 +11459,31 @@ exports[`<Operation /> operations from result should be able to make a new opera
           }
         }
       >
-        <Text
-          style={
-            Object {
-              "color": "#FFFFFF",
-              "fontSize": 28,
-              "padding": 10,
+        <ScrollView>
+          <Text
+            style={
+              Object {
+                "color": "#FFFFFF",
+                "fontSize": 28,
+                "padding": 10,
+              }
             }
-          }
-        >
-          30 + 2
-        </Text>
-        <Text
-          style={
-            Object {
-              "color": "#FFFFFF",
-              "fontSize": 28,
-              "padding": 10,
+          >
+            30 + 2
+          </Text>
+          <Text
+            style={
+              Object {
+                "color": "#FFFFFF",
+                "fontSize": 28,
+                "padding": 10,
+              }
             }
-          }
-        >
-          32
-        </Text>
-      </ScrollView>
+          >
+            32
+          </Text>
+        </ScrollView>
+      </View>
     </View>
     <View
       style={
@@ -12234,8 +12264,8 @@ exports[`<Operation /> operations from result should be able to make a new opera
         }
       }
     >
-      <ScrollView
-        contentContainerStyle={
+      <View
+        style={
           Object {
             "alignItems": "flex-end",
             "backgroundColor": "#141414",
@@ -12245,29 +12275,31 @@ exports[`<Operation /> operations from result should be able to make a new opera
           }
         }
       >
-        <Text
-          style={
-            Object {
-              "color": "#FFFFFF",
-              "fontSize": 28,
-              "padding": 10,
+        <ScrollView>
+          <Text
+            style={
+              Object {
+                "color": "#FFFFFF",
+                "fontSize": 28,
+                "padding": 10,
+              }
             }
-          }
-        >
-          2 + 22
-        </Text>
-        <Text
-          style={
-            Object {
-              "color": "#FFFFFF",
-              "fontSize": 28,
-              "padding": 10,
+          >
+            2 + 22
+          </Text>
+          <Text
+            style={
+              Object {
+                "color": "#FFFFFF",
+                "fontSize": 28,
+                "padding": 10,
+              }
             }
-          }
-        >
-          24
-        </Text>
-      </ScrollView>
+          >
+            24
+          </Text>
+        </ScrollView>
+      </View>
     </View>
     <View
       style={
@@ -13048,8 +13080,8 @@ exports[`<Operation /> operator should be able to make a division 1`] = `
         }
       }
     >
-      <ScrollView
-        contentContainerStyle={
+      <View
+        style={
           Object {
             "alignItems": "flex-end",
             "backgroundColor": "#141414",
@@ -13059,29 +13091,31 @@ exports[`<Operation /> operator should be able to make a division 1`] = `
           }
         }
       >
-        <Text
-          style={
-            Object {
-              "color": "#FFFFFF",
-              "fontSize": 28,
-              "padding": 10,
+        <ScrollView>
+          <Text
+            style={
+              Object {
+                "color": "#FFFFFF",
+                "fontSize": 28,
+                "padding": 10,
+              }
             }
-          }
-        >
-          40 / 2
-        </Text>
-        <Text
-          style={
-            Object {
-              "color": "#FFFFFF",
-              "fontSize": 28,
-              "padding": 10,
+          >
+            40 / 2
+          </Text>
+          <Text
+            style={
+              Object {
+                "color": "#FFFFFF",
+                "fontSize": 28,
+                "padding": 10,
+              }
             }
-          }
-        >
-          20
-        </Text>
-      </ScrollView>
+          >
+            20
+          </Text>
+        </ScrollView>
+      </View>
     </View>
     <View
       style={
@@ -13862,8 +13896,8 @@ exports[`<Operation /> operator should be able to make a mutiplication 1`] = `
         }
       }
     >
-      <ScrollView
-        contentContainerStyle={
+      <View
+        style={
           Object {
             "alignItems": "flex-end",
             "backgroundColor": "#141414",
@@ -13873,29 +13907,31 @@ exports[`<Operation /> operator should be able to make a mutiplication 1`] = `
           }
         }
       >
-        <Text
-          style={
-            Object {
-              "color": "#FFFFFF",
-              "fontSize": 28,
-              "padding": 10,
+        <ScrollView>
+          <Text
+            style={
+              Object {
+                "color": "#FFFFFF",
+                "fontSize": 28,
+                "padding": 10,
+              }
             }
-          }
-        >
-          40 * 2
-        </Text>
-        <Text
-          style={
-            Object {
-              "color": "#FFFFFF",
-              "fontSize": 28,
-              "padding": 10,
+          >
+            40 * 2
+          </Text>
+          <Text
+            style={
+              Object {
+                "color": "#FFFFFF",
+                "fontSize": 28,
+                "padding": 10,
+              }
             }
-          }
-        >
-          80
-        </Text>
-      </ScrollView>
+          >
+            80
+          </Text>
+        </ScrollView>
+      </View>
     </View>
     <View
       style={
@@ -14676,8 +14712,8 @@ exports[`<Operation /> operator should be able to make a subtraction 1`] = `
         }
       }
     >
-      <ScrollView
-        contentContainerStyle={
+      <View
+        style={
           Object {
             "alignItems": "flex-end",
             "backgroundColor": "#141414",
@@ -14687,29 +14723,31 @@ exports[`<Operation /> operator should be able to make a subtraction 1`] = `
           }
         }
       >
-        <Text
-          style={
-            Object {
-              "color": "#FFFFFF",
-              "fontSize": 28,
-              "padding": 10,
+        <ScrollView>
+          <Text
+            style={
+              Object {
+                "color": "#FFFFFF",
+                "fontSize": 28,
+                "padding": 10,
+              }
             }
-          }
-        >
-          40 - 2
-        </Text>
-        <Text
-          style={
-            Object {
-              "color": "#FFFFFF",
-              "fontSize": 28,
-              "padding": 10,
+          >
+            40 - 2
+          </Text>
+          <Text
+            style={
+              Object {
+                "color": "#FFFFFF",
+                "fontSize": 28,
+                "padding": 10,
+              }
             }
-          }
-        >
-          38
-        </Text>
-      </ScrollView>
+          >
+            38
+          </Text>
+        </ScrollView>
+      </View>
     </View>
     <View
       style={
@@ -15490,8 +15528,8 @@ exports[`<Operation /> operator should be able to make a sum 1`] = `
         }
       }
     >
-      <ScrollView
-        contentContainerStyle={
+      <View
+        style={
           Object {
             "alignItems": "flex-end",
             "backgroundColor": "#141414",
@@ -15501,29 +15539,31 @@ exports[`<Operation /> operator should be able to make a sum 1`] = `
           }
         }
       >
-        <Text
-          style={
-            Object {
-              "color": "#FFFFFF",
-              "fontSize": 28,
-              "padding": 10,
+        <ScrollView>
+          <Text
+            style={
+              Object {
+                "color": "#FFFFFF",
+                "fontSize": 28,
+                "padding": 10,
+              }
             }
-          }
-        >
-          34 + 9
-        </Text>
-        <Text
-          style={
-            Object {
-              "color": "#FFFFFF",
-              "fontSize": 28,
-              "padding": 10,
+          >
+            34 + 9
+          </Text>
+          <Text
+            style={
+              Object {
+                "color": "#FFFFFF",
+                "fontSize": 28,
+                "padding": 10,
+              }
             }
-          }
-        >
-          43
-        </Text>
-      </ScrollView>
+          >
+            43
+          </Text>
+        </ScrollView>
+      </View>
     </View>
     <View
       style={
@@ -16304,8 +16344,8 @@ exports[`<Operation /> operator should be able to type the operator 1`] = `
         }
       }
     >
-      <ScrollView
-        contentContainerStyle={
+      <View
+        style={
           Object {
             "alignItems": "flex-end",
             "backgroundColor": "#141414",
@@ -16315,29 +16355,31 @@ exports[`<Operation /> operator should be able to type the operator 1`] = `
           }
         }
       >
-        <Text
-          style={
-            Object {
-              "color": "#FFFFFF",
-              "fontSize": 28,
-              "padding": 10,
+        <ScrollView>
+          <Text
+            style={
+              Object {
+                "color": "#FFFFFF",
+                "fontSize": 28,
+                "padding": 10,
+              }
             }
-          }
-        >
-          34 + 
-        </Text>
-        <Text
-          style={
-            Object {
-              "color": "#FFFFFF",
-              "fontSize": 28,
-              "padding": 10,
+          >
+            34 + 
+          </Text>
+          <Text
+            style={
+              Object {
+                "color": "#FFFFFF",
+                "fontSize": 28,
+                "padding": 10,
+              }
             }
-          }
-        >
-          
-        </Text>
-      </ScrollView>
+          >
+            
+          </Text>
+        </ScrollView>
+      </View>
     </View>
     <View
       style={
@@ -17118,8 +17160,8 @@ exports[`<Operation /> right operand should be able to type a decimal and negati
         }
       }
     >
-      <ScrollView
-        contentContainerStyle={
+      <View
+        style={
           Object {
             "alignItems": "flex-end",
             "backgroundColor": "#141414",
@@ -17129,29 +17171,31 @@ exports[`<Operation /> right operand should be able to type a decimal and negati
           }
         }
       >
-        <Text
-          style={
-            Object {
-              "color": "#FFFFFF",
-              "fontSize": 28,
-              "padding": 10,
+        <ScrollView>
+          <Text
+            style={
+              Object {
+                "color": "#FFFFFF",
+                "fontSize": 28,
+                "padding": 10,
+              }
             }
-          }
-        >
-          34 + -1.9
-        </Text>
-        <Text
-          style={
-            Object {
-              "color": "#FFFFFF",
-              "fontSize": 28,
-              "padding": 10,
+          >
+            34 + -1.9
+          </Text>
+          <Text
+            style={
+              Object {
+                "color": "#FFFFFF",
+                "fontSize": 28,
+                "padding": 10,
+              }
             }
-          }
-        >
-          
-        </Text>
-      </ScrollView>
+          >
+            
+          </Text>
+        </ScrollView>
+      </View>
     </View>
     <View
       style={
@@ -17932,8 +17976,8 @@ exports[`<Operation /> right operand should be able to type a decimal right oper
         }
       }
     >
-      <ScrollView
-        contentContainerStyle={
+      <View
+        style={
           Object {
             "alignItems": "flex-end",
             "backgroundColor": "#141414",
@@ -17943,29 +17987,31 @@ exports[`<Operation /> right operand should be able to type a decimal right oper
           }
         }
       >
-        <Text
-          style={
-            Object {
-              "color": "#FFFFFF",
-              "fontSize": 28,
-              "padding": 10,
+        <ScrollView>
+          <Text
+            style={
+              Object {
+                "color": "#FFFFFF",
+                "fontSize": 28,
+                "padding": 10,
+              }
             }
-          }
-        >
-          34 + 1.9
-        </Text>
-        <Text
-          style={
-            Object {
-              "color": "#FFFFFF",
-              "fontSize": 28,
-              "padding": 10,
+          >
+            34 + 1.9
+          </Text>
+          <Text
+            style={
+              Object {
+                "color": "#FFFFFF",
+                "fontSize": 28,
+                "padding": 10,
+              }
             }
-          }
-        >
-          
-        </Text>
-      </ScrollView>
+          >
+            
+          </Text>
+        </ScrollView>
+      </View>
     </View>
     <View
       style={
@@ -18746,8 +18792,8 @@ exports[`<Operation /> right operand should be able to type a decimal right oper
         }
       }
     >
-      <ScrollView
-        contentContainerStyle={
+      <View
+        style={
           Object {
             "alignItems": "flex-end",
             "backgroundColor": "#141414",
@@ -18757,29 +18803,31 @@ exports[`<Operation /> right operand should be able to type a decimal right oper
           }
         }
       >
-        <Text
-          style={
-            Object {
-              "color": "#FFFFFF",
-              "fontSize": 28,
-              "padding": 10,
+        <ScrollView>
+          <Text
+            style={
+              Object {
+                "color": "#FFFFFF",
+                "fontSize": 28,
+                "padding": 10,
+              }
             }
-          }
-        >
-          .4 + .9
-        </Text>
-        <Text
-          style={
-            Object {
-              "color": "#FFFFFF",
-              "fontSize": 28,
-              "padding": 10,
+          >
+            .4 + .9
+          </Text>
+          <Text
+            style={
+              Object {
+                "color": "#FFFFFF",
+                "fontSize": 28,
+                "padding": 10,
+              }
             }
-          }
-        >
-          
-        </Text>
-      </ScrollView>
+          >
+            
+          </Text>
+        </ScrollView>
+      </View>
     </View>
     <View
       style={
@@ -19560,8 +19608,8 @@ exports[`<Operation /> right operand should be able to type a negative right ope
         }
       }
     >
-      <ScrollView
-        contentContainerStyle={
+      <View
+        style={
           Object {
             "alignItems": "flex-end",
             "backgroundColor": "#141414",
@@ -19571,29 +19619,31 @@ exports[`<Operation /> right operand should be able to type a negative right ope
           }
         }
       >
-        <Text
-          style={
-            Object {
-              "color": "#FFFFFF",
-              "fontSize": 28,
-              "padding": 10,
+        <ScrollView>
+          <Text
+            style={
+              Object {
+                "color": "#FFFFFF",
+                "fontSize": 28,
+                "padding": 10,
+              }
             }
-          }
-        >
-          34 + -9
-        </Text>
-        <Text
-          style={
-            Object {
-              "color": "#FFFFFF",
-              "fontSize": 28,
-              "padding": 10,
+          >
+            34 + -9
+          </Text>
+          <Text
+            style={
+              Object {
+                "color": "#FFFFFF",
+                "fontSize": 28,
+                "padding": 10,
+              }
             }
-          }
-        >
-          
-        </Text>
-      </ScrollView>
+          >
+            
+          </Text>
+        </ScrollView>
+      </View>
     </View>
     <View
       style={
@@ -20374,8 +20424,8 @@ exports[`<Operation /> right operand should be able to type the right operand 1`
         }
       }
     >
-      <ScrollView
-        contentContainerStyle={
+      <View
+        style={
           Object {
             "alignItems": "flex-end",
             "backgroundColor": "#141414",
@@ -20385,29 +20435,31 @@ exports[`<Operation /> right operand should be able to type the right operand 1`
           }
         }
       >
-        <Text
-          style={
-            Object {
-              "color": "#FFFFFF",
-              "fontSize": 28,
-              "padding": 10,
+        <ScrollView>
+          <Text
+            style={
+              Object {
+                "color": "#FFFFFF",
+                "fontSize": 28,
+                "padding": 10,
+              }
             }
-          }
-        >
-          34 + 9
-        </Text>
-        <Text
-          style={
-            Object {
-              "color": "#FFFFFF",
-              "fontSize": 28,
-              "padding": 10,
+          >
+            34 + 9
+          </Text>
+          <Text
+            style={
+              Object {
+                "color": "#FFFFFF",
+                "fontSize": 28,
+                "padding": 10,
+              }
             }
-          }
-        >
-          
-        </Text>
-      </ScrollView>
+          >
+            
+          </Text>
+        </ScrollView>
+      </View>
     </View>
     <View
       style={

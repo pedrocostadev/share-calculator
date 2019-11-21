@@ -10,8 +10,8 @@ exports[`<Screen /> should render children 1`] = `
     }
   }
 >
-  <ScrollView
-    contentContainerStyle={
+  <View
+    style={
       Object {
         "alignItems": "flex-end",
         "backgroundColor": "#141414",
@@ -21,9 +21,11 @@ exports[`<Screen /> should render children 1`] = `
       }
     }
   >
-    <Text>
-      test-the-screen
-    </Text>
-  </ScrollView>
+    <ScrollView>
+      <Text>
+        test-the-screen
+      </Text>
+    </ScrollView>
+  </View>
 </View>
 `;

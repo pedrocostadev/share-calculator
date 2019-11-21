@@ -1,10 +1,13 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { ScrollView } from 'react-native';
+import { View, ScrollView } from 'react-native';
+
 import styles from './styles';
 
 const Screen = ({ children }) => (
-  <ScrollView contentContainerStyle={styles.container}>{children}</ScrollView>
+  <View style={styles.container}>
+    <ScrollView>{children}</ScrollView>
+  </View>
 );
 
 Screen.propTypes = {
