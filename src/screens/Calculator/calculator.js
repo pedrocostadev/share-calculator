@@ -6,10 +6,25 @@ import Pad from '../../components/Pad';
 import Operation from '../../components/Operation';
 import Result from '../../components/Result';
 import styles from './styles';
+import {
+  isEmptyLeftValue,
+  isEmptyRightValue,
+  isEmptyResult,
+  isEmptyOperator,
+  isValidLeftValue,
+  isValidRightValue,
+  isValidResult,
+  isInvalidLeftValue,
+  isInvalidRightValue,
+} from '../../selectors/operations';
 
-const Calculator = ({ leftValue, operator, rightValue, result, ...actionCreators }) => {
+const Calculator = ({ operations, ...actionCreators }) => {
   const onNumberPress = key => {
-    if (!leftValue || isNaN(leftValue) || !operator || result !== undefined) {
+    if (
+      !isValidLeftValue({ operations }) ||
+      isEmptyOperator({ operations }) ||
+      !isEmptyResult({ operations })
+    ) {
       actionCreators.addLeftValue(key);
       return;
     }
@@ -18,7 +33,11 @@ const Calculator = ({ leftValue, operator, rightValue, result, ...actionCreators
   };
 
   const onResult = () => {
-    if (!leftValue || isNaN(rightValue) || !operator) {
+    if (
+      !isValidLeftValue({ operations }) ||
+      !isValidRightValue({ operations }) ||
+      isEmptyOperator({ operations })
+    ) {
       return;
     }
 
@@ -26,45 +45,53 @@ const Calculator = ({ leftValue, operator, rightValue, result, ...actionCreators
   };
 
   const onDelete = () => {
-    if (result) {
+    if (!isEmptyResult({ operations })) {
       actionCreators.removeResult();
       return;
     }
 
-    if (rightValue) {
+    if (!isEmptyRightValue({ operations })) {
       actionCreators.removeRightValue();
       return;
     }
 
-    if (operator) {
+    if (!isEmptyOperator({ operations })) {
       actionCreators.removeOperator();
       return;
     }
 
-    if (leftValue) {
+    if (!isEmptyLeftValue({ operations })) {
       actionCreators.removeLeftValue();
       return;
     }
   };
 
   const onOperatorPress = key => {
-    if ((leftValue && isNaN(leftValue)) || (rightValue && isNaN(rightValue))) {
+    if (
+      (!isEmptyLeftValue({ operations }) && isInvalidLeftValue({ operations })) ||
+      (!isEmptyRightValue({ operations }) && isInvalidRightValue({ operations })) ||
+      (isEmptyLeftValue({ operations }) && ['*', '/'].includes(key))
+    ) {
       return;
     }
 
-    if (result !== undefined) {
+    if (isValidResult({ operations })) {
       return actionCreators.newOperationFromResult(key);
     }
 
-    if (!leftValue && key === '-') {
+    if (isEmptyLeftValue({ operations }) && key === '-') {
       return actionCreators.addLeftValue(key);
     }
 
-    if (operator && key === '-' && !rightValue) {
+    if (!isEmptyOperator({ operations }) && key === '-' && isEmptyRightValue({ operations })) {
       return actionCreators.addRightValue(key);
     }
 
-    if (!result && rightValue && leftValue) {
+    if (
+      isEmptyResult({ operations }) &&
+      isValidRightValue({ operations }) &&
+      isValidLeftValue({ operations })
+    ) {
       return actionCreators.newOperation(key);
     }
 

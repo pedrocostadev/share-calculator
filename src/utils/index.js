@@ -1,4 +1,4 @@
-import { numberOperations } from './numbers';
-import { removeChar } from './strings';
+import { numberOperations, isValidNumber, isInvalidNumber } from './numbers';
+import { removeChar, isEmpty } from './strings';
 
-export { numberOperations, removeChar };
+export { numberOperations, removeChar, isValidNumber, isInvalidNumber, isEmpty };
