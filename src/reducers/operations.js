@@ -61,6 +61,10 @@ export default function reducer(state = DEFAULT_STATE, action) {
         ...state,
         operator: '',
       };
+    case OPERATION_TYPES.REMOVE_ALL:
+      return {
+        ...DEFAULT_STATE,
+      };
     case OPERATIONS_TYPES.NEW_OPERATION_FROM_RESULT:
       return {
         ...DEFAULT_STATE,

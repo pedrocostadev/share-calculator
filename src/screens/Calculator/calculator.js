@@ -113,6 +113,7 @@ const Calculator = ({ operations, ...actionCreators }) => {
           onNumberPress={onNumberPress}
           onOperatorPress={onOperatorPress}
           onDelete={onDelete}
+          onLongDelete={() => actionCreators.removeAll()}
           onResult={onResult}
         />
       </View>

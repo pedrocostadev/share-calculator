@@ -78,6 +78,11 @@ describe('todos reducer', () => {
         result: undefined,
       });
     });
+    test('should remove all', () => {
+      expect(operationsReducer(mockedState, { type: OPERATIONS_TYPES.REMOVE_ALL })).toEqual(
+        DEFAULT_STATE,
+      );
+    });
   });
   describe('New operations', () => {
     test('should use result for a new operation', () => {

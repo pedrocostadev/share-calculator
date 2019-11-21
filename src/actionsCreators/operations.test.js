@@ -37,6 +37,10 @@ describe('Actions creators', () => {
     const expectedAction = { type: OPERATION_TYPES.REMOVE_OPERATOR };
     expect(operationsActionCreators.removeOperator()).toEqual(expectedAction);
   });
+  test('removeAll', () => {
+    const expectedAction = { type: OPERATION_TYPES.REMOVE_ALL };
+    expect(operationsActionCreators.removeAll()).toEqual(expectedAction);
+  });
   test('newOperation', () => {
     const key = '1';
     const expectedAction = { type: OPERATION_TYPES.NEW_OPERATION, key };

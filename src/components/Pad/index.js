@@ -7,7 +7,7 @@ import styles from './styles';
 
 // TODO: withProps
 
-const Pad = ({ onNumberPress, onOperatorPress, onResult, onDelete }) => (
+const Pad = ({ onNumberPress, onOperatorPress, onResult, onDelete, onLongDelete }) => (
   <Grid style={styles.container}>
     <Col>
       <Row>
@@ -50,7 +50,12 @@ const Pad = ({ onNumberPress, onOperatorPress, onResult, onDelete }) => (
         <Button style={styles.numberButtons} onPress={onNumberPress} title="3" />
       </Row>
       <Row>
-        <Button style={styles.numberButtons} onPress={onDelete} title="DEL" />
+        <Button
+          style={styles.numberButtons}
+          onPress={onDelete}
+          onLongPress={onLongDelete}
+          title="DEL"
+        />
       </Row>
     </Col>
 
