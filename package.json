@@ -48,7 +48,8 @@
   "jest": {
     "preset": "@testing-library/react-native",
     "collectCoverageFrom": [
-      "src/**/{!(index),}.js"
+      "src/**/{!(index),}.js",
+      "!<rootDir>/node_modules/"
     ],
     "coverageReporters": [
       "json-summary",
