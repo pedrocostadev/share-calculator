@@ -1,6 +1,6 @@
 {
   "name": "sharecalculator",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "private": true,
   "scripts": {
     "android-emulator": "emulator -avd Nexus_5X_API_23",
