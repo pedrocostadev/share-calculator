@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1580689139701" clover="3.2.0">
+  <project timestamp="1580689139701" name="All files">
+    <metrics statements="152" coveredstatements="146" conditionals="79" coveredconditionals="75" methods="57" coveredmethods="55" elements="288" coveredelements="276" complexity="0" loc="152" ncloc="152" packages="14" files="23" classes="23"/>
+    <package name="actionsCreators">
+      <metrics statements="12" coveredstatements="12" conditionals="0" coveredconditionals="0" methods="12" coveredmethods="12"/>
+      <file name="operations.js" path="/Users/pedrocosta/repos/share-calculator/src/actionsCreators/operations.js">
+        <metrics statements="11" coveredstatements="11" conditionals="0" coveredconditionals="0" methods="11" coveredmethods="11"/>
+        <line num="3" count="57" type="stmt"/>
+        <line num="4" count="29" type="stmt"/>
+        <line num="5" count="19" type="stmt"/>
+        <line num="6" count="11" type="stmt"/>
+        <line num="7" count="4" type="stmt"/>
+        <line num="8" count="3" type="stmt"/>
+        <line num="9" count="3" type="stmt"/>
+        <line num="10" count="3" type="stmt"/>
+        <line num="11" count="3" type="stmt"/>
+        <line num="12" count="3" type="stmt"/>
+        <line num="13" count="3" type="stmt"/>
+      </file>
+      <file name="uiState.js" path="/Users/pedrocosta/repos/share-calculator/src/actionsCreators/uiState.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="3" count="3" type="stmt"/>
+      </file>
+    </package>
+    <package name="actionsTypes">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="operations.js" path="/Users/pedrocosta/repos/share-calculator/src/actionsTypes/operations.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="5" type="stmt"/>
+      </file>
+      <file name="uiState.js" path="/Users/pedrocosta/repos/share-calculator/src/actionsTypes/uiState.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="5" type="stmt"/>
+      </file>
+    </package>
+    <package name="components.Button">
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="styles.js" path="/Users/pedrocosta/repos/share-calculator/src/components/Button/styles.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="3" count="3" type="stmt"/>
+      </file>
+    </package>
+    <package name="components.CollapsePanel">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="styles.js" path="/Users/pedrocosta/repos/share-calculator/src/components/CollapsePanel/styles.js">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="23" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="components.Navbar">
+      <metrics statements="11" coveredstatements="5" conditionals="4" coveredconditionals="0" methods="3" coveredmethods="1"/>
+      <file name="navbar.js" path="/Users/pedrocosta/repos/share-calculator/src/components/Navbar/navbar.js">
+        <metrics statements="10" coveredstatements="4" conditionals="4" coveredconditionals="0" methods="3" coveredmethods="1"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="20" count="1" type="stmt"/>
+        <line num="21" count="1" type="stmt"/>
+        <line num="37" count="0" type="stmt"/>
+        <line num="42" count="1" type="stmt"/>
+      </file>
+      <file name="styles.js" path="/Users/pedrocosta/repos/share-calculator/src/components/Navbar/styles.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="3" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="components.Operation">
+      <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="operation.js" path="/Users/pedrocosta/repos/share-calculator/src/components/Operation/operation.js">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="6" count="140" type="stmt"/>
+        <line num="8" count="2" type="stmt"/>
+        <line num="12" count="2" type="stmt"/>
+      </file>
+      <file name="styles.js" path="/Users/pedrocosta/repos/share-calculator/src/components/Operation/styles.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="3" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="components.Pad">
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="styles.js" path="/Users/pedrocosta/repos/share-calculator/src/components/Pad/styles.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="3" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="components.Result">
+      <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="result.js" path="/Users/pedrocosta/repos/share-calculator/src/components/Result/result.js">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="6" count="42" type="stmt"/>
+        <line num="8" count="2" type="stmt"/>
+        <line num="12" count="2" type="stmt"/>
+      </file>
+      <file name="styles.js" path="/Users/pedrocosta/repos/share-calculator/src/components/Result/styles.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="3" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="components.Screen">
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="styles.js" path="/Users/pedrocosta/repos/share-calculator/src/components/Screen/styles.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="3" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="reducers">
+      <metrics statements="21" coveredstatements="21" conditionals="18" coveredconditionals="18" methods="2" coveredmethods="2"/>
+      <file name="operations.js" path="/Users/pedrocosta/repos/share-calculator/src/reducers/operations.js">
+        <metrics statements="17" coveredstatements="17" conditionals="15" coveredconditionals="15" methods="1" coveredmethods="1"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="13" count="165" type="cond" truecount="12" falsecount="0"/>
+        <line num="15" count="57" type="stmt"/>
+        <line num="16" count="57" type="cond" truecount="2" falsecount="0"/>
+        <line num="26" count="29" type="stmt"/>
+        <line num="31" count="19" type="stmt"/>
+        <line num="36" count="11" type="stmt"/>
+        <line num="37" count="11" type="stmt"/>
+        <line num="43" count="4" type="stmt"/>
+        <line num="48" count="3" type="stmt"/>
+        <line num="53" count="2" type="stmt"/>
+        <line num="59" count="2" type="stmt"/>
+        <line num="64" count="1" type="stmt"/>
+        <line num="68" count="2" type="stmt"/>
+        <line num="74" count="2" type="stmt"/>
+        <line num="75" count="2" type="stmt"/>
+        <line num="82" count="33" type="stmt"/>
+      </file>
+      <file name="uiState.js" path="/Users/pedrocosta/repos/share-calculator/src/reducers/uiState.js">
+        <metrics statements="4" coveredstatements="4" conditionals="3" coveredconditionals="3" methods="1" coveredmethods="1"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="8" count="156" type="cond" truecount="2" falsecount="0"/>
+        <line num="10" count="4" type="stmt"/>
+        <line num="12" count="152" type="stmt"/>
+      </file>
+    </package>
+    <package name="screens.Calculator">
+      <metrics statements="37" coveredstatements="37" conditionals="34" coveredconditionals="34" methods="5" coveredmethods="5"/>
+      <file name="calculator.js" path="/Users/pedrocosta/repos/share-calculator/src/screens/Calculator/calculator.js">
+        <metrics statements="36" coveredstatements="36" conditionals="34" coveredconditionals="34" methods="5" coveredmethods="5"/>
+        <line num="23" count="1" type="stmt"/>
+        <line num="24" count="151" type="stmt"/>
+        <line num="25" count="77" type="cond" truecount="2" falsecount="0"/>
+        <line num="26" count="53" type="stmt"/>
+        <line num="27" count="53" type="stmt"/>
+        <line num="29" count="24" type="stmt"/>
+        <line num="32" count="151" type="stmt"/>
+        <line num="33" count="11" type="cond" truecount="2" falsecount="0"/>
+        <line num="34" count="1" type="stmt"/>
+        <line num="36" count="10" type="stmt"/>
+        <line num="39" count="151" type="stmt"/>
+        <line num="40" count="9" type="cond" truecount="2" falsecount="0"/>
+        <line num="41" count="1" type="stmt"/>
+        <line num="42" count="1" type="stmt"/>
+        <line num="45" count="8" type="cond" truecount="2" falsecount="0"/>
+        <line num="46" count="2" type="stmt"/>
+        <line num="47" count="2" type="stmt"/>
+        <line num="50" count="6" type="cond" truecount="2" falsecount="0"/>
+        <line num="51" count="1" type="stmt"/>
+        <line num="52" count="1" type="stmt"/>
+        <line num="55" count="5" type="cond" truecount="2" falsecount="0"/>
+        <line num="56" count="3" type="stmt"/>
+        <line num="57" count="3" type="stmt"/>
+        <line num="61" count="151" type="stmt"/>
+        <line num="62" count="29" type="cond" truecount="2" falsecount="0"/>
+        <line num="66" count="2" type="stmt"/>
+        <line num="69" count="27" type="cond" truecount="2" falsecount="0"/>
+        <line num="70" count="1" type="stmt"/>
+        <line num="73" count="26" type="cond" truecount="4" falsecount="0"/>
+        <line num="74" count="3" type="stmt"/>
+        <line num="77" count="23" type="cond" truecount="5" falsecount="0"/>
+        <line num="78" count="4" type="stmt"/>
+        <line num="81" count="19" type="cond" truecount="2" falsecount="0"/>
+        <line num="82" count="1" type="stmt"/>
+        <line num="85" count="18" type="stmt"/>
+        <line num="88" count="151" type="stmt"/>
+      </file>
+      <file name="styles.js" path="/Users/pedrocosta/repos/share-calculator/src/screens/Calculator/styles.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="3" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="selectors">
+      <metrics statements="43" coveredstatements="43" conditionals="17" coveredconditionals="17" methods="23" coveredmethods="23"/>
+      <file name="operations.js" path="/Users/pedrocosta/repos/share-calculator/src/selectors/operations.js">
+        <metrics statements="42" coveredstatements="42" conditionals="17" coveredconditionals="17" methods="22" coveredmethods="22"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="6" count="154" type="stmt"/>
+        <line num="8" count="187" type="stmt"/>
+        <line num="9" count="124" type="stmt"/>
+        <line num="10" count="111" type="stmt"/>
+        <line num="11" count="295" type="stmt"/>
+        <line num="13" count="2" type="stmt"/>
+        <line num="15" count="19" type="stmt"/>
+        <line num="18" count="2" type="stmt"/>
+        <line num="20" count="12" type="stmt"/>
+        <line num="23" count="2" type="stmt"/>
+        <line num="25" count="9" type="stmt"/>
+        <line num="28" count="2" type="stmt"/>
+        <line num="30" count="15" type="stmt"/>
+        <line num="33" count="2" type="stmt"/>
+        <line num="35" count="9" type="stmt"/>
+        <line num="38" count="2" type="stmt"/>
+        <line num="40" count="2" type="stmt"/>
+        <line num="43" count="2" type="stmt"/>
+        <line num="45" count="41" type="stmt"/>
+        <line num="48" count="2" type="stmt"/>
+        <line num="50" count="76" type="stmt"/>
+        <line num="53" count="2" type="stmt"/>
+        <line num="55" count="26" type="stmt"/>
+        <line num="58" count="2" type="stmt"/>
+        <line num="60" count="5" type="stmt"/>
+        <line num="63" count="2" type="stmt"/>
+        <line num="66" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="67" count="1" type="stmt"/>
+        <line num="69" count="1" type="stmt"/>
+        <line num="73" count="2" type="stmt"/>
+        <line num="77" count="62" type="cond" truecount="3" falsecount="0"/>
+        <line num="80" count="2" type="stmt"/>
+        <line num="85" count="5" type="cond" truecount="3" falsecount="0"/>
+        <line num="88" count="2" type="stmt"/>
+        <line num="91" count="5" type="cond" truecount="2" falsecount="0"/>
+        <line num="94" count="2" type="stmt"/>
+        <line num="97" count="7" type="cond" truecount="2" falsecount="0"/>
+        <line num="100" count="2" type="stmt"/>
+        <line num="104" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="107" count="2" type="stmt"/>
+        <line num="112" count="5" type="cond" truecount="3" falsecount="0"/>
+      </file>
+      <file name="uiState.js" path="/Users/pedrocosta/repos/share-calculator/src/selectors/uiState.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="153" type="stmt"/>
+      </file>
+    </package>
+    <package name="svg">
+      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="Chevron.js" path="/Users/pedrocosta/repos/share-calculator/src/svg/Chevron.js">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="6" count="153" type="stmt"/>
+        <line num="15" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="utils">
+      <metrics statements="10" coveredstatements="10" conditionals="6" coveredconditionals="6" methods="9" coveredmethods="9"/>
+      <file name="numbers.js" path="/Users/pedrocosta/repos/share-calculator/src/utils/numbers.js">
+        <metrics statements="7" coveredstatements="7" conditionals="2" coveredconditionals="2" methods="6" coveredmethods="6"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="4" count="7" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="3" type="stmt"/>
+        <line num="10" count="97" type="stmt"/>
+        <line num="12" count="107" type="cond" truecount="2" falsecount="0"/>
+      </file>
+      <file name="strings.js" path="/Users/pedrocosta/repos/share-calculator/src/utils/strings.js">
+        <metrics statements="3" coveredstatements="3" conditionals="4" coveredconditionals="4" methods="3" coveredmethods="3"/>
+        <line num="1" count="7" type="cond" truecount="2" falsecount="0"/>
+        <line num="3" count="188" type="cond" truecount="2" falsecount="0"/>
+        <line num="5" count="5" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>

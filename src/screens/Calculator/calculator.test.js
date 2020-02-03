@@ -318,6 +318,17 @@ describe('<Operation />', () => {
       expect(container).toMatchSnapshot();
     });
 
+    test('should not break if we click delete without any value', async () => {
+      const { getByText, queryAllByText, container } = renderWithStore();
+
+      pressSequence(['DEL', 'DEL'], getByText);
+
+      const equalButton = await queryAllByText('=');
+
+      expect(equalButton).toHaveLength(1);
+      expect(container).toMatchSnapshot();
+    });
+
     test('should be able to delete the operator', async () => {
       const { getByText, queryAllByText, container } = renderWithStore();
 
@@ -367,6 +378,19 @@ describe('<Operation />', () => {
 
       expect(invalidResult).toHaveLength(0);
       expect(container).toMatchSnapshot();
+    });
+  });
+  describe('Collapse panel', () => {
+    test('should hide and show pad when we press collapse button', async () => {
+      const { getByTestId, queryAllByText } = renderWithStore();
+      const collapseButton = getByTestId('collapse-panel-button');
+      const someRandomPadButton = '+';
+      fireEvent(collapseButton, new NativeTestEvent('press'));
+      let result = await queryAllByText(someRandomPadButton);
+      expect(result).toHaveLength(0);
+      fireEvent(collapseButton, new NativeTestEvent('press'));
+      result = await queryAllByText(someRandomPadButton);
+      expect(result).toHaveLength(1);
     });
   });
 });

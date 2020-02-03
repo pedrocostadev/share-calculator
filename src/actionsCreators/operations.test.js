@@ -1,7 +1,7 @@
 import { OPERATION_TYPES } from '../actionsTypes';
 import { operationsActionCreators } from '../actionsCreators/';
 
-describe('Actions creators', () => {
+describe('Operations Actions creators', () => {
   test('addLeftValue', () => {
     const key = '1';
     const expectedAction = { type: OPERATION_TYPES.ADD_LEFT_VALUE, key };

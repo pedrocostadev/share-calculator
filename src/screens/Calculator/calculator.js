@@ -3,6 +3,7 @@ import { View } from 'react-native';
 
 import Screen from '../../components/Screen';
 import Pad from '../../components/Pad';
+import CollapsePanel from '../../components/CollapsePanel';
 import Operation from '../../components/Operation';
 import Result from '../../components/Result';
 import styles from './styles';
@@ -11,56 +12,47 @@ import {
   isEmptyRightValue,
   isEmptyResult,
   isEmptyOperator,
-  isValidLeftValue,
-  isValidRightValue,
   isValidResult,
-  isInvalidLeftValue,
-  isInvalidRightValue,
+  selectIsInsertingLeftValue,
+  selectIsValidForResult,
+  selectIsValidForOperator,
+  selectIsValidForNewOperation,
 } from '../../selectors/operations';
+import { isPlusOrMinus } from '../../utils';
 
-const Calculator = ({ operations, ...actionCreators }) => {
+const Calculator = ({ operationsState, isPadVisible, ...actionCreators }) => {
   const onNumberPress = key => {
-    if (
-      !isValidLeftValue({ operations }) ||
-      isEmptyOperator({ operations }) ||
-      !isEmptyResult({ operations })
-    ) {
+    if (selectIsInsertingLeftValue(operationsState)) {
       actionCreators.addLeftValue(key);
       return;
     }
-
     actionCreators.addRightValue(key);
   };
 
   const onResult = () => {
-    if (
-      !isValidLeftValue({ operations }) ||
-      !isValidRightValue({ operations }) ||
-      isEmptyOperator({ operations })
-    ) {
+    if (!selectIsValidForResult(operationsState)) {
       return;
     }
-
     actionCreators.addResult();
   };
 
   const onDelete = () => {
-    if (!isEmptyResult({ operations })) {
+    if (!isEmptyResult(operationsState)) {
       actionCreators.removeResult();
       return;
     }
 
-    if (!isEmptyRightValue({ operations })) {
+    if (!isEmptyRightValue(operationsState)) {
       actionCreators.removeRightValue();
       return;
     }
 
-    if (!isEmptyOperator({ operations })) {
+    if (!isEmptyOperator(operationsState)) {
       actionCreators.removeOperator();
       return;
     }
 
-    if (!isEmptyLeftValue({ operations })) {
+    if (!isEmptyLeftValue(operationsState)) {
       actionCreators.removeLeftValue();
       return;
     }
@@ -68,30 +60,25 @@ const Calculator = ({ operations, ...actionCreators }) => {
 
   const onOperatorPress = key => {
     if (
-      (!isEmptyLeftValue({ operations }) && isInvalidLeftValue({ operations })) ||
-      (!isEmptyRightValue({ operations }) && isInvalidRightValue({ operations })) ||
-      (isEmptyLeftValue({ operations }) && ['*', '/'].includes(key))
+      !selectIsValidForOperator(operationsState) ||
+      (isEmptyLeftValue(operationsState) && !isPlusOrMinus(key))
     ) {
       return;
     }
 
-    if (isValidResult({ operations })) {
+    if (isValidResult(operationsState)) {
       return actionCreators.newOperationFromResult(key);
     }
 
-    if (isEmptyLeftValue({ operations }) && key === '-') {
+    if (isEmptyLeftValue(operationsState) && key === '-') {
       return actionCreators.addLeftValue(key);
     }
 
-    if (!isEmptyOperator({ operations }) && key === '-' && isEmptyRightValue({ operations })) {
+    if (!isEmptyOperator(operationsState) && key === '-' && isEmptyRightValue(operationsState)) {
       return actionCreators.addRightValue(key);
     }
 
-    if (
-      isEmptyResult({ operations }) &&
-      isValidRightValue({ operations }) &&
-      isValidLeftValue({ operations })
-    ) {
+    if (selectIsValidForNewOperation(operationsState)) {
       return actionCreators.newOperation(key);
     }
 
@@ -100,7 +87,7 @@ const Calculator = ({ operations, ...actionCreators }) => {
 
   return (
     <View style={styles.container}>
-      <View style={styles.screen}>
+      <View style={isPadVisible ? styles.screen : styles.fullScreen}>
         <Screen>
           <>
             <Operation />
@@ -108,14 +95,16 @@ const Calculator = ({ operations, ...actionCreators }) => {
           </>
         </Screen>
       </View>
-      <View style={styles.pad}>
-        <Pad
-          onNumberPress={onNumberPress}
-          onOperatorPress={onOperatorPress}
-          onDelete={onDelete}
-          onLongDelete={() => actionCreators.removeAll()}
-          onResult={onResult}
-        />
+      <View style={isPadVisible ? styles.expandedPanel : styles.collapsedPanel}>
+        <CollapsePanel isVisible={isPadVisible} onPress={actionCreators.togglePadVisibility}>
+          <Pad
+            onNumberPress={onNumberPress}
+            onOperatorPress={onOperatorPress}
+            onDelete={onDelete}
+            onLongDelete={actionCreators.removeAll}
+            onResult={onResult}
+          />
+        </CollapsePanel>
       </View>
     </View>
   );

@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { View } from 'react-native';
 import { Col, Row, Grid } from 'react-native-easy-grid';
 
 import Button from '../Button';
@@ -15,75 +16,77 @@ const Pad = ({ onNumberPress, onOperatorPress, onResult, onDelete, onLongDelete 
   );
 
   return (
-    <Grid style={styles.container}>
-      <Col>
-        <Row>
-          <NumberButton title="7" />
-        </Row>
-        <Row>
-          <NumberButton title="4" />
-        </Row>
-        <Row>
-          <NumberButton title="1" />
-        </Row>
-        <Row>
-          <NumberButton title="." />
-        </Row>
-      </Col>
+    <View style={styles.container}>
+      <Grid style={styles.gridContainer}>
+        <Col>
+          <Row>
+            <NumberButton title="7" />
+          </Row>
+          <Row>
+            <NumberButton title="4" />
+          </Row>
+          <Row>
+            <NumberButton title="1" />
+          </Row>
+          <Row>
+            <NumberButton title="." />
+          </Row>
+        </Col>
 
-      <Col>
-        <Row>
-          <NumberButton title="8" />
-        </Row>
-        <Row>
-          <NumberButton title="5" />
-        </Row>
-        <Row>
-          <NumberButton title="2" />
-        </Row>
-        <Row>
-          <NumberButton title="0" />
-        </Row>
-      </Col>
+        <Col>
+          <Row>
+            <NumberButton title="8" />
+          </Row>
+          <Row>
+            <NumberButton title="5" />
+          </Row>
+          <Row>
+            <NumberButton title="2" />
+          </Row>
+          <Row>
+            <NumberButton title="0" />
+          </Row>
+        </Col>
 
-      <Col>
-        <Row>
-          <NumberButton title="9" />
-        </Row>
-        <Row>
-          <NumberButton title="6" />
-        </Row>
-        <Row>
-          <NumberButton title="3" />
-        </Row>
-        <Row>
-          <Button
-            style={styles.numberButtons}
-            onPress={onDelete}
-            onLongPress={onLongDelete}
-            title="DEL"
-          />
-        </Row>
-      </Col>
+        <Col>
+          <Row>
+            <NumberButton title="9" />
+          </Row>
+          <Row>
+            <NumberButton title="6" />
+          </Row>
+          <Row>
+            <NumberButton title="3" />
+          </Row>
+          <Row>
+            <Button
+              style={styles.numberButtons}
+              onPress={onDelete}
+              onLongPress={onLongDelete}
+              title="DEL"
+            />
+          </Row>
+        </Col>
 
-      <Col>
-        <Row>
-          <OperatorButton title="/" />
-        </Row>
-        <Row>
-          <OperatorButton title="*" />
-        </Row>
-        <Row>
-          <OperatorButton title="-" />
-        </Row>
-        <Row>
-          <OperatorButton title="+" />
-        </Row>
-        <Row>
-          <Button style={styles.equalButton} onPress={onResult} title="=" />
-        </Row>
-      </Col>
-    </Grid>
+        <Col>
+          <Row>
+            <OperatorButton title="/" />
+          </Row>
+          <Row>
+            <OperatorButton title="*" />
+          </Row>
+          <Row>
+            <OperatorButton title="-" />
+          </Row>
+          <Row>
+            <OperatorButton title="+" />
+          </Row>
+          <Row>
+            <Button style={styles.equalButton} onPress={onResult} title="=" />
+          </Row>
+        </Col>
+      </Grid>
+    </View>
   );
 };
 

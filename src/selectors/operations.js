@@ -70,6 +70,48 @@ const selectOperationWithResult = createSelector(
   },
 );
 
+const selectIsInsertingLeftValue = createSelector(
+  isValidLeftValue,
+  isEmptyOperator,
+  isEmptyResult,
+  (validLeftValue, emptyOperator, emptyResult) => !validLeftValue || emptyOperator || !emptyResult,
+);
+
+const selectIsValidForResult = createSelector(
+  isValidLeftValue,
+  isValidRightValue,
+  isEmptyOperator,
+  (validLeftValue, validRightValue, emptyOperator) =>
+    validLeftValue && validRightValue && !emptyOperator,
+);
+
+const selectShouldInsertLeftNumber = createSelector(
+  isEmptyLeftValue,
+  isInvalidLeftValue,
+  (emptyLeftValue, invalidLeftValue) => !emptyLeftValue && invalidLeftValue,
+);
+
+const selectShouldInsertRightNumber = createSelector(
+  isEmptyRightValue,
+  isInvalidRightValue,
+  (emptyRightValue, invalidRightValue) => !emptyRightValue && invalidRightValue,
+);
+
+const selectIsValidForOperator = createSelector(
+  selectShouldInsertLeftNumber,
+  selectShouldInsertRightNumber,
+  (shouldInsertLeftNumber, shouldInsertRightNumber) =>
+    !shouldInsertLeftNumber && !shouldInsertRightNumber,
+);
+
+const selectIsValidForNewOperation = createSelector(
+  isEmptyResult,
+  isValidRightValue,
+  isValidLeftValue,
+  (emptyResult, validRightValue, validLeftValue) =>
+    emptyResult && validRightValue && validLeftValue,
+);
+
 export {
   selectLeftValue,
   selectOperator,
@@ -87,4 +129,8 @@ export {
   isInvalidLeftValue,
   isInvalidRightValue,
   isInvalidResult,
+  selectIsInsertingLeftValue,
+  selectIsValidForResult,
+  selectIsValidForOperator,
+  selectIsValidForNewOperation,
 };

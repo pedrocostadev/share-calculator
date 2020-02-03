@@ -5,10 +5,16 @@ const styles = StyleSheet.create({
     height: '100%',
   },
   screen: {
-    height: '40%',
+    height: '35%',
   },
-  pad: {
-    height: '60%',
+  expandedPanel: {
+    height: '65%',
+  },
+  fullScreen: {
+    height: '95%',
+  },
+  collapsedPanel: {
+    height: '5%',
   },
 });
 
