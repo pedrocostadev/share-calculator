@@ -77,12 +77,25 @@ const selectIsInsertingLeftValue = createSelector(
   (validLeftValue, emptyOperator, emptyResult) => !validLeftValue || emptyOperator || !emptyResult,
 );
 
+const selectIsDivisionOperation = createSelector(
+  selectOperator,
+  operator => operator === '/',
+);
+
+const selectIsDivisionByZero = createSelector(
+  selectIsDivisionOperation,
+  selectRightValue,
+  // eslint-disable-next-line eqeqeq
+  (isDivisionOperator, rightValue) => isDivisionOperator && rightValue == 0,
+);
+
 const selectIsValidForResult = createSelector(
   isValidLeftValue,
   isValidRightValue,
   isEmptyOperator,
-  (validLeftValue, validRightValue, emptyOperator) =>
-    validLeftValue && validRightValue && !emptyOperator,
+  selectIsDivisionByZero,
+  (validLeftValue, validRightValue, emptyOperator, isDivisionByZero) =>
+    validLeftValue && validRightValue && !emptyOperator && !isDivisionByZero,
 );
 
 const selectShouldInsertLeftNumber = createSelector(

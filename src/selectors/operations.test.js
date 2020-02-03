@@ -158,6 +158,18 @@ describe('Operations selectors', () => {
       });
       expect(result).toBeFalsy();
     });
+    test('selectIsValidForResult 4', async () => {
+      const result = selectIsValidForResult({
+        operations: { leftValue: '1', rightValue: '0', operator: '/' },
+      });
+      expect(result).toBeFalsy();
+    });
+    test('selectIsValidForResult 5', async () => {
+      const result = selectIsValidForResult({
+        operations: { leftValue: '3', rightValue: '02', operator: '/' },
+      });
+      expect(result).toBeTruthy();
+    });
     test('selectIsValidForOperator 1', async () => {
       const result = selectIsValidForOperator({
         operations: { leftValue: '1', rightValue: '2', operator: '*' },
