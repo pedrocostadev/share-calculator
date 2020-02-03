@@ -13,6 +13,7 @@ const styles = StyleSheet.create({
   button: {
     display: 'flex',
     alignItems: 'center',
+    justifyContent: 'center',
     backgroundColor: '#000000',
   },
   contentContainer: {

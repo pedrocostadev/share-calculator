@@ -9,12 +9,14 @@ const styles = StyleSheet.create({
   },
   expandedPanel: {
     height: '65%',
+    backgroundColor: '#000000',
   },
   fullScreen: {
     height: '95%',
   },
   collapsedPanel: {
     height: '5%',
+    backgroundColor: '#000000',
   },
 });
 
