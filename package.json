@@ -8,7 +8,8 @@
     "test": "jest --collectCoverage",
     "test-watch": "jest --watch",
     "lint": "eslint .",
-    "android-dev-release": "cd android && ./gradlew assembleRelease"
+    "android-dev-release": "cd android && ./gradlew assembleRelease",
+    "make-badges": "node_modules/.bin/jest-badges-readme"
   },
   "dependencies": {
     "appcenter": "2.6.0",
@@ -26,6 +27,7 @@
   "devDependencies": {
     "@babel/core": "^7.6.0",
     "@babel/runtime": "^7.6.0",
+    "@olavoparno/jest-badges-readme": "^1.4.0",
     "@react-native-community/eslint-config": "^0.0.5",
     "@testing-library/react-native": "^5.0.1",
     "babel-jest": "^24.9.0",
@@ -47,6 +49,11 @@
     "preset": "@testing-library/react-native",
     "collectCoverageFrom": [
       "src/**/{!(index),}.js"
+    ],
+    "coverageReporters": [
+      "json-summary",
+      "text",
+      "lcov"
     ]
   },
   "husky": {
