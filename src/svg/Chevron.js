@@ -3,7 +3,7 @@ import Svg, { Path } from 'react-native-svg';
 import PropTypes from 'prop-types';
 
 const Chevron = ({ color, ...props }) => (
-  <Svg width="30" height="31" viewBox="0 0 24 25" {...props}>
+  <Svg width="28" height="29" {...props}>
     <Path
       fill={color}
       stroke={color}

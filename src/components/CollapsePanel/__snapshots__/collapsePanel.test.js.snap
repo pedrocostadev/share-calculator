@@ -37,14 +37,10 @@ exports[`<CollapsePanel /> should render the children 1`] = `
         testID="collapse-panel-button"
       >
         <RNSVGSvgView
-          align="xMidYMid"
-          bbHeight="31"
-          bbWidth="30"
+          bbHeight="29"
+          bbWidth="28"
           focusable={false}
-          height="31"
-          meetOrSlice={0}
-          minX={0}
-          minY={0}
+          height="29"
           rotation={90}
           style={
             Array [
@@ -58,14 +54,12 @@ exports[`<CollapsePanel /> should render the children 1`] = `
               },
               Object {
                 "flex": 0,
-                "height": 31,
-                "width": 30,
+                "height": 29,
+                "width": 28,
               },
             ]
           }
-          vbHeight={25}
-          vbWidth={24}
-          width="30"
+          width="28"
         >
           <RNSVGGroup
             fill={4278190080}

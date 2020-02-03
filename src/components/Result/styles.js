@@ -5,6 +5,7 @@ const styles = StyleSheet.create({
     fontSize: 28,
     color: '#FFFFFF',
     padding: 10,
+    textAlign: 'right',
   },
 });
 

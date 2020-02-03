@@ -42,6 +42,7 @@ exports[`<Operation /> Invalid operations should not try to calculate a invalid 
                 "color": "#FFFFFF",
                 "fontSize": 28,
                 "padding": 10,
+                "textAlign": "right",
               }
             }
           >
@@ -53,6 +54,7 @@ exports[`<Operation /> Invalid operations should not try to calculate a invalid 
                 "color": "#FFFFFF",
                 "fontSize": 28,
                 "padding": 10,
+                "textAlign": "right",
               }
             }
           >
@@ -96,14 +98,10 @@ exports[`<Operation /> Invalid operations should not try to calculate a invalid 
             testID="collapse-panel-button"
           >
             <RNSVGSvgView
-              align="xMidYMid"
-              bbHeight="31"
-              bbWidth="30"
+              bbHeight="29"
+              bbWidth="28"
               focusable={false}
-              height="31"
-              meetOrSlice={0}
-              minX={0}
-              minY={0}
+              height="29"
               rotation={90}
               style={
                 Array [
@@ -117,14 +115,12 @@ exports[`<Operation /> Invalid operations should not try to calculate a invalid 
                   },
                   Object {
                     "flex": 0,
-                    "height": 31,
-                    "width": 30,
+                    "height": 29,
+                    "width": 28,
                   },
                 ]
               }
-              vbHeight={25}
-              vbWidth={24}
-              width="30"
+              width="28"
             >
               <RNSVGGroup
                 fill={4278190080}
@@ -1014,6 +1010,7 @@ exports[`<Operation /> del should be able to completly delete left operand 1`] =
                 "color": "#FFFFFF",
                 "fontSize": 28,
                 "padding": 10,
+                "textAlign": "right",
               }
             }
           >
@@ -1025,6 +1022,7 @@ exports[`<Operation /> del should be able to completly delete left operand 1`] =
                 "color": "#FFFFFF",
                 "fontSize": 28,
                 "padding": 10,
+                "textAlign": "right",
               }
             }
           >
@@ -1068,14 +1066,10 @@ exports[`<Operation /> del should be able to completly delete left operand 1`] =
             testID="collapse-panel-button"
           >
             <RNSVGSvgView
-              align="xMidYMid"
-              bbHeight="31"
-              bbWidth="30"
+              bbHeight="29"
+              bbWidth="28"
               focusable={false}
-              height="31"
-              meetOrSlice={0}
-              minX={0}
-              minY={0}
+              height="29"
               rotation={90}
               style={
                 Array [
@@ -1089,14 +1083,12 @@ exports[`<Operation /> del should be able to completly delete left operand 1`] =
                   },
                   Object {
                     "flex": 0,
-                    "height": 31,
-                    "width": 30,
+                    "height": 29,
+                    "width": 28,
                   },
                 ]
               }
-              vbHeight={25}
-              vbWidth={24}
-              width="30"
+              width="28"
             >
               <RNSVGGroup
                 fill={4278190080}
@@ -1986,6 +1978,7 @@ exports[`<Operation /> del should be able to delete a 0 (zero) result 1`] = `
                 "color": "#FFFFFF",
                 "fontSize": 28,
                 "padding": 10,
+                "textAlign": "right",
               }
             }
           >
@@ -1997,6 +1990,7 @@ exports[`<Operation /> del should be able to delete a 0 (zero) result 1`] = `
                 "color": "#FFFFFF",
                 "fontSize": 28,
                 "padding": 10,
+                "textAlign": "right",
               }
             }
           >
@@ -2040,14 +2034,10 @@ exports[`<Operation /> del should be able to delete a 0 (zero) result 1`] = `
             testID="collapse-panel-button"
           >
             <RNSVGSvgView
-              align="xMidYMid"
-              bbHeight="31"
-              bbWidth="30"
+              bbHeight="29"
+              bbWidth="28"
               focusable={false}
-              height="31"
-              meetOrSlice={0}
-              minX={0}
-              minY={0}
+              height="29"
               rotation={90}
               style={
                 Array [
@@ -2061,14 +2051,12 @@ exports[`<Operation /> del should be able to delete a 0 (zero) result 1`] = `
                   },
                   Object {
                     "flex": 0,
-                    "height": 31,
-                    "width": 30,
+                    "height": 29,
+                    "width": 28,
                   },
                 ]
               }
-              vbHeight={25}
-              vbWidth={24}
-              width="30"
+              width="28"
             >
               <RNSVGGroup
                 fill={4278190080}
@@ -2958,6 +2946,7 @@ exports[`<Operation /> del should be able to delete the operator 1`] = `
                 "color": "#FFFFFF",
                 "fontSize": 28,
                 "padding": 10,
+                "textAlign": "right",
               }
             }
           >
@@ -2969,6 +2958,7 @@ exports[`<Operation /> del should be able to delete the operator 1`] = `
                 "color": "#FFFFFF",
                 "fontSize": 28,
                 "padding": 10,
+                "textAlign": "right",
               }
             }
           >
@@ -3012,14 +3002,10 @@ exports[`<Operation /> del should be able to delete the operator 1`] = `
             testID="collapse-panel-button"
           >
             <RNSVGSvgView
-              align="xMidYMid"
-              bbHeight="31"
-              bbWidth="30"
+              bbHeight="29"
+              bbWidth="28"
               focusable={false}
-              height="31"
-              meetOrSlice={0}
-              minX={0}
-              minY={0}
+              height="29"
               rotation={90}
               style={
                 Array [
@@ -3033,14 +3019,12 @@ exports[`<Operation /> del should be able to delete the operator 1`] = `
                   },
                   Object {
                     "flex": 0,
-                    "height": 31,
-                    "width": 30,
+                    "height": 29,
+                    "width": 28,
                   },
                 ]
               }
-              vbHeight={25}
-              vbWidth={24}
-              width="30"
+              width="28"
             >
               <RNSVGGroup
                 fill={4278190080}
@@ -3930,6 +3914,7 @@ exports[`<Operation /> del should be able to delete the right operand 1`] = `
                 "color": "#FFFFFF",
                 "fontSize": 28,
                 "padding": 10,
+                "textAlign": "right",
               }
             }
           >
@@ -3941,6 +3926,7 @@ exports[`<Operation /> del should be able to delete the right operand 1`] = `
                 "color": "#FFFFFF",
                 "fontSize": 28,
                 "padding": 10,
+                "textAlign": "right",
               }
             }
           >
@@ -3984,14 +3970,10 @@ exports[`<Operation /> del should be able to delete the right operand 1`] = `
             testID="collapse-panel-button"
           >
             <RNSVGSvgView
-              align="xMidYMid"
-              bbHeight="31"
-              bbWidth="30"
+              bbHeight="29"
+              bbWidth="28"
               focusable={false}
-              height="31"
-              meetOrSlice={0}
-              minX={0}
-              minY={0}
+              height="29"
               rotation={90}
               style={
                 Array [
@@ -4005,14 +3987,12 @@ exports[`<Operation /> del should be able to delete the right operand 1`] = `
                   },
                   Object {
                     "flex": 0,
-                    "height": 31,
-                    "width": 30,
+                    "height": 29,
+                    "width": 28,
                   },
                 ]
               }
-              vbHeight={25}
-              vbWidth={24}
-              width="30"
+              width="28"
             >
               <RNSVGGroup
                 fill={4278190080}
@@ -4902,6 +4882,7 @@ exports[`<Operation /> del should be able to partially delete left operand 1`] =
                 "color": "#FFFFFF",
                 "fontSize": 28,
                 "padding": 10,
+                "textAlign": "right",
               }
             }
           >
@@ -4913,6 +4894,7 @@ exports[`<Operation /> del should be able to partially delete left operand 1`] =
                 "color": "#FFFFFF",
                 "fontSize": 28,
                 "padding": 10,
+                "textAlign": "right",
               }
             }
           >
@@ -4956,14 +4938,10 @@ exports[`<Operation /> del should be able to partially delete left operand 1`] =
             testID="collapse-panel-button"
           >
             <RNSVGSvgView
-              align="xMidYMid"
-              bbHeight="31"
-              bbWidth="30"
+              bbHeight="29"
+              bbWidth="28"
               focusable={false}
-              height="31"
-              meetOrSlice={0}
-              minX={0}
-              minY={0}
+              height="29"
               rotation={90}
               style={
                 Array [
@@ -4977,14 +4955,12 @@ exports[`<Operation /> del should be able to partially delete left operand 1`] =
                   },
                   Object {
                     "flex": 0,
-                    "height": 31,
-                    "width": 30,
+                    "height": 29,
+                    "width": 28,
                   },
                 ]
               }
-              vbHeight={25}
-              vbWidth={24}
-              width="30"
+              width="28"
             >
               <RNSVGGroup
                 fill={4278190080}
@@ -5874,6 +5850,7 @@ exports[`<Operation /> del should not break if we click delete without any value
                 "color": "#FFFFFF",
                 "fontSize": 28,
                 "padding": 10,
+                "textAlign": "right",
               }
             }
           >
@@ -5885,6 +5862,7 @@ exports[`<Operation /> del should not break if we click delete without any value
                 "color": "#FFFFFF",
                 "fontSize": 28,
                 "padding": 10,
+                "textAlign": "right",
               }
             }
           >
@@ -5928,14 +5906,10 @@ exports[`<Operation /> del should not break if we click delete without any value
             testID="collapse-panel-button"
           >
             <RNSVGSvgView
-              align="xMidYMid"
-              bbHeight="31"
-              bbWidth="30"
+              bbHeight="29"
+              bbWidth="28"
               focusable={false}
-              height="31"
-              meetOrSlice={0}
-              minX={0}
-              minY={0}
+              height="29"
               rotation={90}
               style={
                 Array [
@@ -5949,14 +5923,12 @@ exports[`<Operation /> del should not break if we click delete without any value
                   },
                   Object {
                     "flex": 0,
-                    "height": 31,
-                    "width": 30,
+                    "height": 29,
+                    "width": 28,
                   },
                 ]
               }
-              vbHeight={25}
-              vbWidth={24}
-              width="30"
+              width="28"
             >
               <RNSVGGroup
                 fill={4278190080}
@@ -6846,6 +6818,7 @@ exports[`<Operation /> left operand should be able to type a decimal and negativ
                 "color": "#FFFFFF",
                 "fontSize": 28,
                 "padding": 10,
+                "textAlign": "right",
               }
             }
           >
@@ -6857,6 +6830,7 @@ exports[`<Operation /> left operand should be able to type a decimal and negativ
                 "color": "#FFFFFF",
                 "fontSize": 28,
                 "padding": 10,
+                "textAlign": "right",
               }
             }
           >
@@ -6900,14 +6874,10 @@ exports[`<Operation /> left operand should be able to type a decimal and negativ
             testID="collapse-panel-button"
           >
             <RNSVGSvgView
-              align="xMidYMid"
-              bbHeight="31"
-              bbWidth="30"
+              bbHeight="29"
+              bbWidth="28"
               focusable={false}
-              height="31"
-              meetOrSlice={0}
-              minX={0}
-              minY={0}
+              height="29"
               rotation={90}
               style={
                 Array [
@@ -6921,14 +6891,12 @@ exports[`<Operation /> left operand should be able to type a decimal and negativ
                   },
                   Object {
                     "flex": 0,
-                    "height": 31,
-                    "width": 30,
+                    "height": 29,
+                    "width": 28,
                   },
                 ]
               }
-              vbHeight={25}
-              vbWidth={24}
-              width="30"
+              width="28"
             >
               <RNSVGGroup
                 fill={4278190080}
@@ -7818,6 +7786,7 @@ exports[`<Operation /> left operand should be able to type a decimal left operan
                 "color": "#FFFFFF",
                 "fontSize": 28,
                 "padding": 10,
+                "textAlign": "right",
               }
             }
           >
@@ -7829,6 +7798,7 @@ exports[`<Operation /> left operand should be able to type a decimal left operan
                 "color": "#FFFFFF",
                 "fontSize": 28,
                 "padding": 10,
+                "textAlign": "right",
               }
             }
           >
@@ -7872,14 +7842,10 @@ exports[`<Operation /> left operand should be able to type a decimal left operan
             testID="collapse-panel-button"
           >
             <RNSVGSvgView
-              align="xMidYMid"
-              bbHeight="31"
-              bbWidth="30"
+              bbHeight="29"
+              bbWidth="28"
               focusable={false}
-              height="31"
-              meetOrSlice={0}
-              minX={0}
-              minY={0}
+              height="29"
               rotation={90}
               style={
                 Array [
@@ -7893,14 +7859,12 @@ exports[`<Operation /> left operand should be able to type a decimal left operan
                   },
                   Object {
                     "flex": 0,
-                    "height": 31,
-                    "width": 30,
+                    "height": 29,
+                    "width": 28,
                   },
                 ]
               }
-              vbHeight={25}
-              vbWidth={24}
-              width="30"
+              width="28"
             >
               <RNSVGGroup
                 fill={4278190080}
@@ -8790,6 +8754,7 @@ exports[`<Operation /> left operand should be able to type a decimal left operan
                 "color": "#FFFFFF",
                 "fontSize": 28,
                 "padding": 10,
+                "textAlign": "right",
               }
             }
           >
@@ -8801,6 +8766,7 @@ exports[`<Operation /> left operand should be able to type a decimal left operan
                 "color": "#FFFFFF",
                 "fontSize": 28,
                 "padding": 10,
+                "textAlign": "right",
               }
             }
           >
@@ -8844,14 +8810,10 @@ exports[`<Operation /> left operand should be able to type a decimal left operan
             testID="collapse-panel-button"
           >
             <RNSVGSvgView
-              align="xMidYMid"
-              bbHeight="31"
-              bbWidth="30"
+              bbHeight="29"
+              bbWidth="28"
               focusable={false}
-              height="31"
-              meetOrSlice={0}
-              minX={0}
-              minY={0}
+              height="29"
               rotation={90}
               style={
                 Array [
@@ -8865,14 +8827,12 @@ exports[`<Operation /> left operand should be able to type a decimal left operan
                   },
                   Object {
                     "flex": 0,
-                    "height": 31,
-                    "width": 30,
+                    "height": 29,
+                    "width": 28,
                   },
                 ]
               }
-              vbHeight={25}
-              vbWidth={24}
-              width="30"
+              width="28"
             >
               <RNSVGGroup
                 fill={4278190080}
@@ -9762,6 +9722,7 @@ exports[`<Operation /> left operand should be able to type a left operand 1`] = 
                 "color": "#FFFFFF",
                 "fontSize": 28,
                 "padding": 10,
+                "textAlign": "right",
               }
             }
           >
@@ -9773,6 +9734,7 @@ exports[`<Operation /> left operand should be able to type a left operand 1`] = 
                 "color": "#FFFFFF",
                 "fontSize": 28,
                 "padding": 10,
+                "textAlign": "right",
               }
             }
           >
@@ -9816,14 +9778,10 @@ exports[`<Operation /> left operand should be able to type a left operand 1`] = 
             testID="collapse-panel-button"
           >
             <RNSVGSvgView
-              align="xMidYMid"
-              bbHeight="31"
-              bbWidth="30"
+              bbHeight="29"
+              bbWidth="28"
               focusable={false}
-              height="31"
-              meetOrSlice={0}
-              minX={0}
-              minY={0}
+              height="29"
               rotation={90}
               style={
                 Array [
@@ -9837,14 +9795,12 @@ exports[`<Operation /> left operand should be able to type a left operand 1`] = 
                   },
                   Object {
                     "flex": 0,
-                    "height": 31,
-                    "width": 30,
+                    "height": 29,
+                    "width": 28,
                   },
                 ]
               }
-              vbHeight={25}
-              vbWidth={24}
-              width="30"
+              width="28"
             >
               <RNSVGGroup
                 fill={4278190080}
@@ -10734,6 +10690,7 @@ exports[`<Operation /> left operand should be able to type a negative left opera
                 "color": "#FFFFFF",
                 "fontSize": 28,
                 "padding": 10,
+                "textAlign": "right",
               }
             }
           >
@@ -10745,6 +10702,7 @@ exports[`<Operation /> left operand should be able to type a negative left opera
                 "color": "#FFFFFF",
                 "fontSize": 28,
                 "padding": 10,
+                "textAlign": "right",
               }
             }
           >
@@ -10788,14 +10746,10 @@ exports[`<Operation /> left operand should be able to type a negative left opera
             testID="collapse-panel-button"
           >
             <RNSVGSvgView
-              align="xMidYMid"
-              bbHeight="31"
-              bbWidth="30"
+              bbHeight="29"
+              bbWidth="28"
               focusable={false}
-              height="31"
-              meetOrSlice={0}
-              minX={0}
-              minY={0}
+              height="29"
               rotation={90}
               style={
                 Array [
@@ -10809,14 +10763,12 @@ exports[`<Operation /> left operand should be able to type a negative left opera
                   },
                   Object {
                     "flex": 0,
-                    "height": 31,
-                    "width": 30,
+                    "height": 29,
+                    "width": 28,
                   },
                 ]
               }
-              vbHeight={25}
-              vbWidth={24}
-              width="30"
+              width="28"
             >
               <RNSVGGroup
                 fill={4278190080}
@@ -11706,6 +11658,7 @@ exports[`<Operation /> left operand should not be able to type * (mutiplication 
                 "color": "#FFFFFF",
                 "fontSize": 28,
                 "padding": 10,
+                "textAlign": "right",
               }
             }
           >
@@ -11717,6 +11670,7 @@ exports[`<Operation /> left operand should not be able to type * (mutiplication 
                 "color": "#FFFFFF",
                 "fontSize": 28,
                 "padding": 10,
+                "textAlign": "right",
               }
             }
           >
@@ -11760,14 +11714,10 @@ exports[`<Operation /> left operand should not be able to type * (mutiplication 
             testID="collapse-panel-button"
           >
             <RNSVGSvgView
-              align="xMidYMid"
-              bbHeight="31"
-              bbWidth="30"
+              bbHeight="29"
+              bbWidth="28"
               focusable={false}
-              height="31"
-              meetOrSlice={0}
-              minX={0}
-              minY={0}
+              height="29"
               rotation={90}
               style={
                 Array [
@@ -11781,14 +11731,12 @@ exports[`<Operation /> left operand should not be able to type * (mutiplication 
                   },
                   Object {
                     "flex": 0,
-                    "height": 31,
-                    "width": 30,
+                    "height": 29,
+                    "width": 28,
                   },
                 ]
               }
-              vbHeight={25}
-              vbWidth={24}
-              width="30"
+              width="28"
             >
               <RNSVGGroup
                 fill={4278190080}
@@ -12678,6 +12626,7 @@ exports[`<Operation /> left operand should not be able to type / (division opera
                 "color": "#FFFFFF",
                 "fontSize": 28,
                 "padding": 10,
+                "textAlign": "right",
               }
             }
           >
@@ -12689,6 +12638,7 @@ exports[`<Operation /> left operand should not be able to type / (division opera
                 "color": "#FFFFFF",
                 "fontSize": 28,
                 "padding": 10,
+                "textAlign": "right",
               }
             }
           >
@@ -12732,14 +12682,10 @@ exports[`<Operation /> left operand should not be able to type / (division opera
             testID="collapse-panel-button"
           >
             <RNSVGSvgView
-              align="xMidYMid"
-              bbHeight="31"
-              bbWidth="30"
+              bbHeight="29"
+              bbWidth="28"
               focusable={false}
-              height="31"
-              meetOrSlice={0}
-              minX={0}
-              minY={0}
+              height="29"
               rotation={90}
               style={
                 Array [
@@ -12753,14 +12699,12 @@ exports[`<Operation /> left operand should not be able to type / (division opera
                   },
                   Object {
                     "flex": 0,
-                    "height": 31,
-                    "width": 30,
+                    "height": 29,
+                    "width": 28,
                   },
                 ]
               }
-              vbHeight={25}
-              vbWidth={24}
-              width="30"
+              width="28"
             >
               <RNSVGGroup
                 fill={4278190080}
@@ -13650,6 +13594,7 @@ exports[`<Operation /> operations from result should be able to make a new opera
                 "color": "#FFFFFF",
                 "fontSize": 28,
                 "padding": 10,
+                "textAlign": "right",
               }
             }
           >
@@ -13661,6 +13606,7 @@ exports[`<Operation /> operations from result should be able to make a new opera
                 "color": "#FFFFFF",
                 "fontSize": 28,
                 "padding": 10,
+                "textAlign": "right",
               }
             }
           >
@@ -13704,14 +13650,10 @@ exports[`<Operation /> operations from result should be able to make a new opera
             testID="collapse-panel-button"
           >
             <RNSVGSvgView
-              align="xMidYMid"
-              bbHeight="31"
-              bbWidth="30"
+              bbHeight="29"
+              bbWidth="28"
               focusable={false}
-              height="31"
-              meetOrSlice={0}
-              minX={0}
-              minY={0}
+              height="29"
               rotation={90}
               style={
                 Array [
@@ -13725,14 +13667,12 @@ exports[`<Operation /> operations from result should be able to make a new opera
                   },
                   Object {
                     "flex": 0,
-                    "height": 31,
-                    "width": 30,
+                    "height": 29,
+                    "width": 28,
                   },
                 ]
               }
-              vbHeight={25}
-              vbWidth={24}
-              width="30"
+              width="28"
             >
               <RNSVGGroup
                 fill={4278190080}
@@ -14622,6 +14562,7 @@ exports[`<Operation /> operations from result should be able to make a new opera
                 "color": "#FFFFFF",
                 "fontSize": 28,
                 "padding": 10,
+                "textAlign": "right",
               }
             }
           >
@@ -14633,6 +14574,7 @@ exports[`<Operation /> operations from result should be able to make a new opera
                 "color": "#FFFFFF",
                 "fontSize": 28,
                 "padding": 10,
+                "textAlign": "right",
               }
             }
           >
@@ -14676,14 +14618,10 @@ exports[`<Operation /> operations from result should be able to make a new opera
             testID="collapse-panel-button"
           >
             <RNSVGSvgView
-              align="xMidYMid"
-              bbHeight="31"
-              bbWidth="30"
+              bbHeight="29"
+              bbWidth="28"
               focusable={false}
-              height="31"
-              meetOrSlice={0}
-              minX={0}
-              minY={0}
+              height="29"
               rotation={90}
               style={
                 Array [
@@ -14697,14 +14635,12 @@ exports[`<Operation /> operations from result should be able to make a new opera
                   },
                   Object {
                     "flex": 0,
-                    "height": 31,
-                    "width": 30,
+                    "height": 29,
+                    "width": 28,
                   },
                 ]
               }
-              vbHeight={25}
-              vbWidth={24}
-              width="30"
+              width="28"
             >
               <RNSVGGroup
                 fill={4278190080}
@@ -15594,6 +15530,7 @@ exports[`<Operation /> operations from result should be able to make a new opera
                 "color": "#FFFFFF",
                 "fontSize": 28,
                 "padding": 10,
+                "textAlign": "right",
               }
             }
           >
@@ -15605,6 +15542,7 @@ exports[`<Operation /> operations from result should be able to make a new opera
                 "color": "#FFFFFF",
                 "fontSize": 28,
                 "padding": 10,
+                "textAlign": "right",
               }
             }
           >
@@ -15648,14 +15586,10 @@ exports[`<Operation /> operations from result should be able to make a new opera
             testID="collapse-panel-button"
           >
             <RNSVGSvgView
-              align="xMidYMid"
-              bbHeight="31"
-              bbWidth="30"
+              bbHeight="29"
+              bbWidth="28"
               focusable={false}
-              height="31"
-              meetOrSlice={0}
-              minX={0}
-              minY={0}
+              height="29"
               rotation={90}
               style={
                 Array [
@@ -15669,14 +15603,12 @@ exports[`<Operation /> operations from result should be able to make a new opera
                   },
                   Object {
                     "flex": 0,
-                    "height": 31,
-                    "width": 30,
+                    "height": 29,
+                    "width": 28,
                   },
                 ]
               }
-              vbHeight={25}
-              vbWidth={24}
-              width="30"
+              width="28"
             >
               <RNSVGGroup
                 fill={4278190080}
@@ -16566,6 +16498,7 @@ exports[`<Operation /> operator should be able to make a division 1`] = `
                 "color": "#FFFFFF",
                 "fontSize": 28,
                 "padding": 10,
+                "textAlign": "right",
               }
             }
           >
@@ -16577,6 +16510,7 @@ exports[`<Operation /> operator should be able to make a division 1`] = `
                 "color": "#FFFFFF",
                 "fontSize": 28,
                 "padding": 10,
+                "textAlign": "right",
               }
             }
           >
@@ -16620,14 +16554,10 @@ exports[`<Operation /> operator should be able to make a division 1`] = `
             testID="collapse-panel-button"
           >
             <RNSVGSvgView
-              align="xMidYMid"
-              bbHeight="31"
-              bbWidth="30"
+              bbHeight="29"
+              bbWidth="28"
               focusable={false}
-              height="31"
-              meetOrSlice={0}
-              minX={0}
-              minY={0}
+              height="29"
               rotation={90}
               style={
                 Array [
@@ -16641,14 +16571,12 @@ exports[`<Operation /> operator should be able to make a division 1`] = `
                   },
                   Object {
                     "flex": 0,
-                    "height": 31,
-                    "width": 30,
+                    "height": 29,
+                    "width": 28,
                   },
                 ]
               }
-              vbHeight={25}
-              vbWidth={24}
-              width="30"
+              width="28"
             >
               <RNSVGGroup
                 fill={4278190080}
@@ -17538,6 +17466,7 @@ exports[`<Operation /> operator should be able to make a mutiplication 1`] = `
                 "color": "#FFFFFF",
                 "fontSize": 28,
                 "padding": 10,
+                "textAlign": "right",
               }
             }
           >
@@ -17549,6 +17478,7 @@ exports[`<Operation /> operator should be able to make a mutiplication 1`] = `
                 "color": "#FFFFFF",
                 "fontSize": 28,
                 "padding": 10,
+                "textAlign": "right",
               }
             }
           >
@@ -17592,14 +17522,10 @@ exports[`<Operation /> operator should be able to make a mutiplication 1`] = `
             testID="collapse-panel-button"
           >
             <RNSVGSvgView
-              align="xMidYMid"
-              bbHeight="31"
-              bbWidth="30"
+              bbHeight="29"
+              bbWidth="28"
               focusable={false}
-              height="31"
-              meetOrSlice={0}
-              minX={0}
-              minY={0}
+              height="29"
               rotation={90}
               style={
                 Array [
@@ -17613,14 +17539,12 @@ exports[`<Operation /> operator should be able to make a mutiplication 1`] = `
                   },
                   Object {
                     "flex": 0,
-                    "height": 31,
-                    "width": 30,
+                    "height": 29,
+                    "width": 28,
                   },
                 ]
               }
-              vbHeight={25}
-              vbWidth={24}
-              width="30"
+              width="28"
             >
               <RNSVGGroup
                 fill={4278190080}
@@ -18510,6 +18434,7 @@ exports[`<Operation /> operator should be able to make a subtraction 1`] = `
                 "color": "#FFFFFF",
                 "fontSize": 28,
                 "padding": 10,
+                "textAlign": "right",
               }
             }
           >
@@ -18521,6 +18446,7 @@ exports[`<Operation /> operator should be able to make a subtraction 1`] = `
                 "color": "#FFFFFF",
                 "fontSize": 28,
                 "padding": 10,
+                "textAlign": "right",
               }
             }
           >
@@ -18564,14 +18490,10 @@ exports[`<Operation /> operator should be able to make a subtraction 1`] = `
             testID="collapse-panel-button"
           >
             <RNSVGSvgView
-              align="xMidYMid"
-              bbHeight="31"
-              bbWidth="30"
+              bbHeight="29"
+              bbWidth="28"
               focusable={false}
-              height="31"
-              meetOrSlice={0}
-              minX={0}
-              minY={0}
+              height="29"
               rotation={90}
               style={
                 Array [
@@ -18585,14 +18507,12 @@ exports[`<Operation /> operator should be able to make a subtraction 1`] = `
                   },
                   Object {
                     "flex": 0,
-                    "height": 31,
-                    "width": 30,
+                    "height": 29,
+                    "width": 28,
                   },
                 ]
               }
-              vbHeight={25}
-              vbWidth={24}
-              width="30"
+              width="28"
             >
               <RNSVGGroup
                 fill={4278190080}
@@ -19482,6 +19402,7 @@ exports[`<Operation /> operator should be able to make a sum 1`] = `
                 "color": "#FFFFFF",
                 "fontSize": 28,
                 "padding": 10,
+                "textAlign": "right",
               }
             }
           >
@@ -19493,6 +19414,7 @@ exports[`<Operation /> operator should be able to make a sum 1`] = `
                 "color": "#FFFFFF",
                 "fontSize": 28,
                 "padding": 10,
+                "textAlign": "right",
               }
             }
           >
@@ -19536,14 +19458,10 @@ exports[`<Operation /> operator should be able to make a sum 1`] = `
             testID="collapse-panel-button"
           >
             <RNSVGSvgView
-              align="xMidYMid"
-              bbHeight="31"
-              bbWidth="30"
+              bbHeight="29"
+              bbWidth="28"
               focusable={false}
-              height="31"
-              meetOrSlice={0}
-              minX={0}
-              minY={0}
+              height="29"
               rotation={90}
               style={
                 Array [
@@ -19557,14 +19475,12 @@ exports[`<Operation /> operator should be able to make a sum 1`] = `
                   },
                   Object {
                     "flex": 0,
-                    "height": 31,
-                    "width": 30,
+                    "height": 29,
+                    "width": 28,
                   },
                 ]
               }
-              vbHeight={25}
-              vbWidth={24}
-              width="30"
+              width="28"
             >
               <RNSVGGroup
                 fill={4278190080}
@@ -20454,6 +20370,7 @@ exports[`<Operation /> operator should be able to type the operator 1`] = `
                 "color": "#FFFFFF",
                 "fontSize": 28,
                 "padding": 10,
+                "textAlign": "right",
               }
             }
           >
@@ -20465,6 +20382,7 @@ exports[`<Operation /> operator should be able to type the operator 1`] = `
                 "color": "#FFFFFF",
                 "fontSize": 28,
                 "padding": 10,
+                "textAlign": "right",
               }
             }
           >
@@ -20508,14 +20426,10 @@ exports[`<Operation /> operator should be able to type the operator 1`] = `
             testID="collapse-panel-button"
           >
             <RNSVGSvgView
-              align="xMidYMid"
-              bbHeight="31"
-              bbWidth="30"
+              bbHeight="29"
+              bbWidth="28"
               focusable={false}
-              height="31"
-              meetOrSlice={0}
-              minX={0}
-              minY={0}
+              height="29"
               rotation={90}
               style={
                 Array [
@@ -20529,14 +20443,12 @@ exports[`<Operation /> operator should be able to type the operator 1`] = `
                   },
                   Object {
                     "flex": 0,
-                    "height": 31,
-                    "width": 30,
+                    "height": 29,
+                    "width": 28,
                   },
                 ]
               }
-              vbHeight={25}
-              vbWidth={24}
-              width="30"
+              width="28"
             >
               <RNSVGGroup
                 fill={4278190080}
@@ -21426,6 +21338,7 @@ exports[`<Operation /> right operand should be able to type a decimal and negati
                 "color": "#FFFFFF",
                 "fontSize": 28,
                 "padding": 10,
+                "textAlign": "right",
               }
             }
           >
@@ -21437,6 +21350,7 @@ exports[`<Operation /> right operand should be able to type a decimal and negati
                 "color": "#FFFFFF",
                 "fontSize": 28,
                 "padding": 10,
+                "textAlign": "right",
               }
             }
           >
@@ -21480,14 +21394,10 @@ exports[`<Operation /> right operand should be able to type a decimal and negati
             testID="collapse-panel-button"
           >
             <RNSVGSvgView
-              align="xMidYMid"
-              bbHeight="31"
-              bbWidth="30"
+              bbHeight="29"
+              bbWidth="28"
               focusable={false}
-              height="31"
-              meetOrSlice={0}
-              minX={0}
-              minY={0}
+              height="29"
               rotation={90}
               style={
                 Array [
@@ -21501,14 +21411,12 @@ exports[`<Operation /> right operand should be able to type a decimal and negati
                   },
                   Object {
                     "flex": 0,
-                    "height": 31,
-                    "width": 30,
+                    "height": 29,
+                    "width": 28,
                   },
                 ]
               }
-              vbHeight={25}
-              vbWidth={24}
-              width="30"
+              width="28"
             >
               <RNSVGGroup
                 fill={4278190080}
@@ -22398,6 +22306,7 @@ exports[`<Operation /> right operand should be able to type a decimal right oper
                 "color": "#FFFFFF",
                 "fontSize": 28,
                 "padding": 10,
+                "textAlign": "right",
               }
             }
           >
@@ -22409,6 +22318,7 @@ exports[`<Operation /> right operand should be able to type a decimal right oper
                 "color": "#FFFFFF",
                 "fontSize": 28,
                 "padding": 10,
+                "textAlign": "right",
               }
             }
           >
@@ -22452,14 +22362,10 @@ exports[`<Operation /> right operand should be able to type a decimal right oper
             testID="collapse-panel-button"
           >
             <RNSVGSvgView
-              align="xMidYMid"
-              bbHeight="31"
-              bbWidth="30"
+              bbHeight="29"
+              bbWidth="28"
               focusable={false}
-              height="31"
-              meetOrSlice={0}
-              minX={0}
-              minY={0}
+              height="29"
               rotation={90}
               style={
                 Array [
@@ -22473,14 +22379,12 @@ exports[`<Operation /> right operand should be able to type a decimal right oper
                   },
                   Object {
                     "flex": 0,
-                    "height": 31,
-                    "width": 30,
+                    "height": 29,
+                    "width": 28,
                   },
                 ]
               }
-              vbHeight={25}
-              vbWidth={24}
-              width="30"
+              width="28"
             >
               <RNSVGGroup
                 fill={4278190080}
@@ -23370,6 +23274,7 @@ exports[`<Operation /> right operand should be able to type a decimal right oper
                 "color": "#FFFFFF",
                 "fontSize": 28,
                 "padding": 10,
+                "textAlign": "right",
               }
             }
           >
@@ -23381,6 +23286,7 @@ exports[`<Operation /> right operand should be able to type a decimal right oper
                 "color": "#FFFFFF",
                 "fontSize": 28,
                 "padding": 10,
+                "textAlign": "right",
               }
             }
           >
@@ -23424,14 +23330,10 @@ exports[`<Operation /> right operand should be able to type a decimal right oper
             testID="collapse-panel-button"
           >
             <RNSVGSvgView
-              align="xMidYMid"
-              bbHeight="31"
-              bbWidth="30"
+              bbHeight="29"
+              bbWidth="28"
               focusable={false}
-              height="31"
-              meetOrSlice={0}
-              minX={0}
-              minY={0}
+              height="29"
               rotation={90}
               style={
                 Array [
@@ -23445,14 +23347,12 @@ exports[`<Operation /> right operand should be able to type a decimal right oper
                   },
                   Object {
                     "flex": 0,
-                    "height": 31,
-                    "width": 30,
+                    "height": 29,
+                    "width": 28,
                   },
                 ]
               }
-              vbHeight={25}
-              vbWidth={24}
-              width="30"
+              width="28"
             >
               <RNSVGGroup
                 fill={4278190080}
@@ -24342,6 +24242,7 @@ exports[`<Operation /> right operand should be able to type a negative right ope
                 "color": "#FFFFFF",
                 "fontSize": 28,
                 "padding": 10,
+                "textAlign": "right",
               }
             }
           >
@@ -24353,6 +24254,7 @@ exports[`<Operation /> right operand should be able to type a negative right ope
                 "color": "#FFFFFF",
                 "fontSize": 28,
                 "padding": 10,
+                "textAlign": "right",
               }
             }
           >
@@ -24396,14 +24298,10 @@ exports[`<Operation /> right operand should be able to type a negative right ope
             testID="collapse-panel-button"
           >
             <RNSVGSvgView
-              align="xMidYMid"
-              bbHeight="31"
-              bbWidth="30"
+              bbHeight="29"
+              bbWidth="28"
               focusable={false}
-              height="31"
-              meetOrSlice={0}
-              minX={0}
-              minY={0}
+              height="29"
               rotation={90}
               style={
                 Array [
@@ -24417,14 +24315,12 @@ exports[`<Operation /> right operand should be able to type a negative right ope
                   },
                   Object {
                     "flex": 0,
-                    "height": 31,
-                    "width": 30,
+                    "height": 29,
+                    "width": 28,
                   },
                 ]
               }
-              vbHeight={25}
-              vbWidth={24}
-              width="30"
+              width="28"
             >
               <RNSVGGroup
                 fill={4278190080}
@@ -25314,6 +25210,7 @@ exports[`<Operation /> right operand should be able to type the right operand 1`
                 "color": "#FFFFFF",
                 "fontSize": 28,
                 "padding": 10,
+                "textAlign": "right",
               }
             }
           >
@@ -25325,6 +25222,7 @@ exports[`<Operation /> right operand should be able to type the right operand 1`
                 "color": "#FFFFFF",
                 "fontSize": 28,
                 "padding": 10,
+                "textAlign": "right",
               }
             }
           >
@@ -25368,14 +25266,10 @@ exports[`<Operation /> right operand should be able to type the right operand 1`
             testID="collapse-panel-button"
           >
             <RNSVGSvgView
-              align="xMidYMid"
-              bbHeight="31"
-              bbWidth="30"
+              bbHeight="29"
+              bbWidth="28"
               focusable={false}
-              height="31"
-              meetOrSlice={0}
-              minX={0}
-              minY={0}
+              height="29"
               rotation={90}
               style={
                 Array [
@@ -25389,14 +25283,12 @@ exports[`<Operation /> right operand should be able to type the right operand 1`
                   },
                   Object {
                     "flex": 0,
-                    "height": 31,
-                    "width": 30,
+                    "height": 29,
+                    "width": 28,
                   },
                 ]
               }
-              vbHeight={25}
-              vbWidth={24}
-              width="30"
+              width="28"
             >
               <RNSVGGroup
                 fill={4278190080}

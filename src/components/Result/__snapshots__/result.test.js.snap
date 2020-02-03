@@ -16,6 +16,7 @@ exports[`<Result /> should render 1`] = `
         "color": "#FFFFFF",
         "fontSize": 28,
         "padding": 10,
+        "textAlign": "right",
       }
     }
   >
