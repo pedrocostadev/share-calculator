@@ -52,8 +52,7 @@
     ],
     "coverageReporters": [
       "json-summary",
-      "text",
-      "lcov"
+      "text"
     ]
   },
   "husky": {
