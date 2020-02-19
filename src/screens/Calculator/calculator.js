@@ -1,5 +1,5 @@
-import React from 'react';
-import { View } from 'react-native';
+import React, { useEffect } from 'react';
+import { BackHandler, View } from 'react-native';
 
 import Screen from '../../components/Screen';
 import Pad from '../../components/Pad';
@@ -84,6 +84,14 @@ const Calculator = ({ operationsState, isPadVisible, ...actionCreators }) => {
 
     actionCreators.addOperator(key);
   };
+
+  useEffect(() => {
+    BackHandler.addEventListener('hardwareBackPress', BackHandler.exitApp);
+
+    return () => {
+      BackHandler.removeEventListener('hardwareBackPress', BackHandler.exitApp);
+    };
+  }, []);
 
   return (
     <View style={styles.container}>
