@@ -4,6 +4,9 @@
 A simple merchant calculator made with React-Native, Redux and Reselect.
 This calculator is different from the others because let you share your calculations using the share button :laughing: !
 
+It uses [App Center](https://appcenter.ms) for the deploys.
+
+
 | Statements | Branches | Functions | Lines |
 | -----------|----------|-----------|-------|
 | ![Statements](#statements# "Make me better!") | ![Branches](#branches# "Make me better!") | ![Functions](#functions# "Make me better!") | ![Lines](#lines# "Make me better!") |
