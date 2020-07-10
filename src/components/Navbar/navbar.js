@@ -1,8 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { View, StatusBar, Share } from 'react-native';
-import Icon from 'react-native-vector-icons/FontAwesome';
-
+import ToolbarAndroid from '@react-native-community/toolbar-android';
 import styles from './styles';
 
 const onShare = async screenText => {
@@ -20,16 +19,15 @@ const onShare = async screenText => {
 const NavBar = ({ screenText }) => (
   <View>
     <StatusBar />
-    <Icon.ToolbarAndroid
+    <ToolbarAndroid
       style={styles.toolbar}
       logoName="calculator"
       title="&nbsp;Share Calculator"
       titleColor="white"
       actions={[
         {
-          title: 'Settings',
-          iconName: 'share-alt',
-          iconSize: 30,
+          title: 'Share',
+          icon: require('./share.png'),
           show: 'always',
         },
       ]}
